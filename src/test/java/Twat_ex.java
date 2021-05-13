@@ -6,9 +6,11 @@ import org.junit.Before;
 import org.apache.poi.sl.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Row;
 import org.junit.After;
+
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -34,10 +36,10 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 
 
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
+
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -47,7 +49,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-
+import org.apache.logging.log4j.*;
 
 public class Twat_ex {
 
@@ -55,11 +57,6 @@ public class Twat_ex {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
-
-
-
-
-
 
 
     @After
@@ -76,16 +73,7 @@ public class Twat_ex {
         vars = new HashMap<String, Object>();
 
 
-
     }
-
-
-
-
-
-
-
-
 
 
     @Test
@@ -95,20 +83,15 @@ public class Twat_ex {
         driver.get("https://www.saucedemo.com");
         driver.manage().window().setSize(new Dimension(1004, 724));
 
-
-
-
-
+        Logger logger = LogManager.getLogger(Twat_ex.class);
 
 
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
 
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
 
-        driver.findElement(By.id("login-button")).click();;
-
-
-
+        driver.findElement(By.id("login-button")).click();
+        ;
 
 
     }
