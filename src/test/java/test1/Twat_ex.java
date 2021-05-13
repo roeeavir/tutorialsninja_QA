@@ -1,53 +1,25 @@
+package test1;
 
 import org.junit.Test;
 import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
 import org.junit.Before;
-import org.apache.poi.sl.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Row;
 import org.junit.After;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNot.not;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.File;
-
-import java.io.FileInputStream;
 
 import java.io.IOException;
-
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-
-import org.apache.poi.ss.usermodel.Row;
-
-import org.apache.poi.ss.usermodel.Workbook;
 
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.Keys;
 
 import java.util.*;
-import java.util.concurrent.TimeUnit;
-
-import javax.naming.spi.DirStateFactory.Result;
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import org.apache.logging.log4j.*;
 
@@ -78,14 +50,15 @@ public class Twat_ex {
 
     @Test
     public void simple() throws InterruptedException {
+        Logger logger = LogManager.getLogger(Twat_ex.class);
 
+        logger.info("opening website");
 
         driver.get("https://www.saucedemo.com");
         driver.manage().window().setSize(new Dimension(1004, 724));
 
-        Logger logger = LogManager.getLogger(Twat_ex.class);
 
-
+        logger.debug("Sending username: \"standard_user\"");
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
 
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
