@@ -43,7 +43,7 @@ public class Test_HW2 {
 
     @After
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
     }
 
     @org.junit.Test
@@ -57,6 +57,7 @@ public class Test_HW2 {
     }
 
     private void login(Logger logger) throws IOException {
+        objExcelFile = new ReadExcl();
         objExcelFile.readExcel("ReadExcels", "RegisterVals.xls", "Login");
         rowCount = ReadExcl.getRowcount();
         thsSheet = ReadExcl.getsheet();
@@ -85,6 +86,9 @@ public class Test_HW2 {
                     }
                 }
             }
+
+            driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input")).click();
+
             driver.navigate().to(driver.getCurrentUrl());
             currentURL = driver.getCurrentUrl();
 
