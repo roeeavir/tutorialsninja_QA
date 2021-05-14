@@ -3720,3 +3720,168 @@
 [DEBUG] 2021-05-14 13:52:26.150 [main] Test_HW2 - Email: xcccccddcccfdcc@makorde.com
 [DEBUG] 2021-05-14 13:52:26.209 [main] Test_HW2 - Password: 1234
 [INFO ] 2021-05-14 13:52:26.974 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-14 14:53:17.179 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 14:53:19.067 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 14:53:19.067 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 14:53:21.366 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 14:53:21.366 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 14:53:22.151 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-14 14:53:22.151 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 14:53:23.153 [main] Test_HW2 - Test Type:Adding item to shopping cart - Failed
+[INFO ] 2021-05-14 14:54:44.967 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 14:54:46.821 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 14:54:46.821 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 14:54:48.988 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 14:54:48.988 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 14:54:49.791 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-14 14:54:49.791 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 14:54:50.804 [main] Test_HW2 - Test Type:Adding item to shopping cart - Failed
+[INFO ] 2021-05-14 14:55:39.490 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 14:55:41.219 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 14:55:41.219 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 14:55:43.194 [main] Test_HW2 - Test Type:Adding item to shopping cart - Failed
+[DEBUG] 2021-05-14 14:55:43.195 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 14:55:44.513 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 14:55:44.513 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 14:55:45.321 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[INFO ] 2021-05-14 14:56:27.270 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 14:56:29.175 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-14 14:56:29.375 [main] Test_HW2 - Moving to register page
+[INFO ] 2021-05-14 14:56:40.515 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 14:56:42.489 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 14:56:42.489 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 14:56:44.545 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 14:56:44.545 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 14:56:45.339 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 14:56:45.339 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 14:56:47.126 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[INFO ] 2021-05-14 15:03:47.103 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:03:48.829 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:03:48.829 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:03:49.634 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:03:49.635 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:03:51.611 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:03:51.611 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:03:52.549 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[INFO ] 2021-05-14 15:10:58.980 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:11:02.783 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:11:02.784 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:11:04.990 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:11:04.991 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:11:05.759 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:11:05.806 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:12:33.791 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:12:36.547 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:12:36.548 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:12:38.846 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:12:38.846 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:12:39.939 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:12:39.988 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:13:34.844 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:13:37.515 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:13:37.515 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:13:40.131 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:13:40.131 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:13:40.928 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:13:40.976 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:15:21.107 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:15:23.813 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:15:23.814 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:15:26.310 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:15:31.832 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:15:44.277 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:15:46.861 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:15:53.797 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:15:54.958 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:16:10.242 [main] Test_HW2 - Test Type: Adding item to shopping cart - Failed
+[INFO ] 2021-05-14 15:16:24.079 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:16:26.712 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:16:26.713 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:16:29.190 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:16:29.190 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:16:29.964 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:16:30.010 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:17:20.889 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:17:23.866 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:17:23.867 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:17:26.602 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:17:26.602 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:17:27.378 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:17:27.425 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:18:19.415 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:18:23.060 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:18:23.061 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:18:25.385 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:18:25.385 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:18:26.152 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:18:26.201 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-14 15:18:44.805 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:18:47.515 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:18:47.516 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:18:49.875 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:18:49.875 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:18:50.661 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:18:50.709 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:18:52.194 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:18:52.194 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:18:53.086 [main] Test_HW2 - Test Type: Adding item to shopping cart - Failed
+[INFO ] 2021-05-14 15:20:06.482 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:20:10.177 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:20:10.177 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:20:14.120 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:20:14.120 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:20:14.953 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:20:15.003 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:20:16.539 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:20:16.539 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:20:17.629 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-14 15:21:28.183 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:21:31.179 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:21:31.179 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:21:35.910 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:21:35.910 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:21:36.742 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:21:36.789 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:21:38.274 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:21:38.275 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:21:39.681 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-14 15:23:38.086 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:23:40.799 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:23:40.800 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:23:43.249 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:23:43.249 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:23:44.050 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:23:44.098 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:23:45.558 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:23:45.559 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:23:46.397 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-14 15:25:13.305 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:25:16.360 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:25:16.360 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:25:19.120 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:25:19.120 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:25:19.912 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:25:19.960 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:25:21.467 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:25:21.467 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:25:42.488 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-14 15:26:04.837 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:26:07.554 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:26:07.555 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:26:10.025 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:26:10.025 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:26:10.792 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:26:10.840 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:26:12.435 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:26:12.435 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:29:10.844 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-14 15:31:14.566 [main] Test_HW2 - opening website
+[INFO ] 2021-05-14 15:31:17.297 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-14 15:31:17.297 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-14 15:31:19.871 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-14 15:31:19.871 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-14 15:31:21.054 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-14 15:31:21.100 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-14 15:31:22.559 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-14 15:31:22.559 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-14 15:31:23.401 [main] Test_HW2 - Test Type:Adding item to shopping cart that already exists in the shopping cart - Pass

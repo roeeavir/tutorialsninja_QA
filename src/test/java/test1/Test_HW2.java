@@ -9,10 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.internal.TextListener;
 import org.junit.runner.JUnitCore;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.IOException;
@@ -30,7 +27,6 @@ public class Test_HW2 {
     private String currentURL;
     private String loginURL;
     ReadExcl objExcelFile = new ReadExcl();
-
 
     @Before
     public void setUp() {
@@ -57,6 +53,7 @@ public class Test_HW2 {
     }
 
     private void login(Logger logger) throws IOException {
+        logger.info("Login Tests");
         objExcelFile = new ReadExcl();
         objExcelFile.readExcel("ReadExcels", "RegisterVals.xls", "Login");
         rowCount = ReadExcl.getRowcount();
@@ -107,6 +104,7 @@ public class Test_HW2 {
     }
 
     private void register(Logger logger) throws IOException {
+        logger.info("Register Tests");
         objExcelFile.readExcel("ReadExcels", "RegisterVals.xls", "Register");
         rowCount = ReadExcl.getRowcount();
         thsSheet = ReadExcl.getsheet();
