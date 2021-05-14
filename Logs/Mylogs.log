@@ -1839,3 +1839,1089 @@
 [DEBUG] 2021-05-13 17:54:06.192 [main] Register - Moving to register page
 [DEBUG] 2021-05-13 17:54:06.515 [main] Register - Test Type: Existing Email
 [DEBUG] 2021-05-13 17:54:06.515 [main] Register - First Name: nisim
+[INFO ] 2021-05-13 18:31:07.594 [main] Register - opening website
+[DEBUG] 2021-05-13 18:31:09.816 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:31:10.661 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 18:31:10.662 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 18:31:10.662 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:10.761 [main] Register - Email: fdfasdasafs@makore.com
+[DEBUG] 2021-05-13 18:31:10.860 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:10.943 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:11.020 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:31:11.882 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:11.882 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 18:31:11.882 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:11.950 [main] Register - Email: fdfasdasafs@makore.com
+[DEBUG] 2021-05-13 18:31:12.060 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:12.176 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:12.265 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:31:13.113 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:13.113 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 18:31:13.113 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:13.184 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:13.257 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:13.357 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:13.434 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:31:14.239 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:14.239 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 18:31:14.240 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:14.313 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:14.392 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:31:14.481 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:14.566 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:31:15.394 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:15.394 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 18:31:15.394 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:15.469 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:15.545 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:31:15.639 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:15.741 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:31:16.577 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:16.577 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 18:31:16.577 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:16.652 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:16.731 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:31:16.824 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:16.909 [main] Register - Password: Kapara123
+[INFO ] 2021-05-13 18:31:17.753 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:17.753 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 18:31:17.753 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:17.827 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:17.909 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:31:18.011 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:31:18.088 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:18.162 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:31:18.997 [main] Register - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:18.997 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 18:31:18.997 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:31:19.077 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:31:19.154 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:31:19.243 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 18:31:19.316 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:31:19.394 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:31:20.379 [main] Register - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:31:20.379 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:31:20.786 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 18:31:20.786 [main] Register - First Name: nisim
+[INFO ] 2021-05-13 18:33:29.711 [main] Register - opening website
+[INFO ] 2021-05-13 18:34:33.346 [main] Register - opening website
+[DEBUG] 2021-05-13 18:34:35.453 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:34:36.256 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 18:34:36.256 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 18:34:36.256 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:36.337 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:36.420 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:36.505 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:36.573 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:37.396 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:37.396 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 18:34:37.396 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:37.473 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:37.571 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:37.665 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:37.745 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:34:38.604 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:38.604 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 18:34:38.605 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:38.680 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:38.757 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:38.845 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:38.930 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:39.810 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:39.810 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 18:34:39.810 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:39.885 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:39.965 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:40.053 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:40.137 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:41.038 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:41.038 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 18:34:41.038 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:41.126 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:41.201 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:41.295 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:41.384 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:42.243 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:42.243 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 18:34:42.243 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:42.328 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:42.407 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:42.499 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:42.597 [main] Register - Password: Kapara123
+[INFO ] 2021-05-13 18:34:43.495 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:43.495 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 18:34:43.496 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:43.575 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:43.649 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:43.741 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:43.835 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:43.914 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:34:44.830 [main] Register - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:44.831 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 18:34:44.831 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:44.904 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:44.976 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:45.066 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 18:34:45.137 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:45.217 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:34:46.264 [main] Register - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:46.264 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:34:47.227 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 18:34:47.227 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:47.304 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:47.381 [main] Register - Email: asfasf@makore.com
+[DEBUG] 2021-05-13 18:34:47.471 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:47.557 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:47.638 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:48.528 [main] Register - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:48.528 [main] Register - Test Type: Invalid Email
+[DEBUG] 2021-05-13 18:34:48.528 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:48.608 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:48.681 [main] Register - Email: Yosi
+[DEBUG] 2021-05-13 18:34:48.761 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:48.848 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:48.921 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:34:49.475 [main] Register - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:49.475 [main] Register - Test Type: Invalid Password
+[DEBUG] 2021-05-13 18:34:49.475 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:49.548 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:49.628 [main] Register - Email: rwqaf@makore.com
+[DEBUG] 2021-05-13 18:34:49.724 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:49.809 [main] Register - Password: 123.0
+[DEBUG] 2021-05-13 18:34:49.876 [main] Register - Password Confirmation: 123.0
+[INFO ] 2021-05-13 18:34:50.757 [main] Register - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:50.757 [main] Register - Test Type: User Creation Success
+[DEBUG] 2021-05-13 18:34:50.757 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:34:50.831 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:34:50.907 [main] Register - Email: sdfgadgvdw1asfsaf@makorde.com
+[DEBUG] 2021-05-13 18:34:51.020 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:34:51.099 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:34:51.176 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:34:52.267 [main] Register - User Creation Success has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:34:52.267 [main] Register - Moving to register page
+[INFO ] 2021-05-13 18:36:38.426 [main] Register - opening website
+[DEBUG] 2021-05-13 18:36:40.608 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:36:41.498 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 18:36:41.499 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 18:36:41.499 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:41.594 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:41.682 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:41.770 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:41.842 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:42.714 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:42.714 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 18:36:42.714 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:42.792 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:42.883 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:42.971 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:43.041 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:36:43.909 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:43.909 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 18:36:43.909 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:43.985 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:44.060 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:44.147 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:44.234 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:45.072 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:45.073 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 18:36:45.073 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:45.151 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:45.236 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:45.325 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:45.414 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:46.215 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:46.215 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 18:36:46.215 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:46.294 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:46.366 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:46.461 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:46.546 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:47.354 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:47.354 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 18:36:47.354 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:47.431 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:47.507 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:47.595 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:47.681 [main] Register - Password: Kapara123
+[INFO ] 2021-05-13 18:36:48.484 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:48.484 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 18:36:48.484 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:48.566 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:48.640 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:48.729 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:48.799 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:48.873 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:36:49.683 [main] Register - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:49.683 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 18:36:49.683 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:49.764 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:49.840 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:49.933 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 18:36:50.011 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:50.091 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:36:51.129 [main] Register - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:51.129 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:36:52.108 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 18:36:52.108 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:52.180 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:52.251 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:36:52.348 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:52.433 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:52.509 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:53.386 [main] Register - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:53.386 [main] Register - Test Type: Invalid Email
+[DEBUG] 2021-05-13 18:36:53.387 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:53.464 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:53.542 [main] Register - Email: Yosi
+[DEBUG] 2021-05-13 18:36:53.617 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:53.703 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:53.774 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:36:54.345 [main] Register - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:54.345 [main] Register - Test Type: Invalid Password
+[DEBUG] 2021-05-13 18:36:54.345 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:54.418 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:54.493 [main] Register - Email: wfgdsf@makorde.com
+[DEBUG] 2021-05-13 18:36:54.606 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:54.690 [main] Register - Password: 123.0
+[DEBUG] 2021-05-13 18:36:54.768 [main] Register - Password Confirmation: 123.0
+[ERROR] 2021-05-13 18:36:55.829 [main] Register - Invalid Password has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:36:55.830 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:36:56.767 [main] Register - Test Type: User Creation Success
+[DEBUG] 2021-05-13 18:36:56.768 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:36:56.848 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:36:56.924 [main] Register - Email: wfgdsf@makorde.com
+[DEBUG] 2021-05-13 18:36:57.019 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:36:57.107 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:36:57.180 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:36:58.070 [main] Register - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-13 18:44:01.324 [main] Register - opening website
+[DEBUG] 2021-05-13 18:44:03.600 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:44:04.450 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 18:44:04.450 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 18:44:04.451 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:04.565 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:04.714 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:04.817 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:04.900 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:05.765 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:05.765 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 18:44:05.766 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:05.843 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:05.935 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:06.030 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:06.105 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:44:07.019 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:07.019 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 18:44:07.020 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:07.107 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:07.182 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:07.297 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:07.433 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:08.302 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:08.302 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 18:44:08.302 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:08.387 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:08.465 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:08.574 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:08.671 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:09.549 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:09.549 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 18:44:09.549 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:09.629 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:09.705 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:09.809 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:09.919 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:10.851 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:10.851 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 18:44:10.851 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:10.936 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:11.038 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:11.150 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:11.236 [main] Register - Password: Kapara123
+[INFO ] 2021-05-13 18:44:12.178 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:12.178 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 18:44:12.178 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:12.270 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:12.367 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:12.483 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:12.569 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:12.657 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:44:13.532 [main] Register - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:13.533 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 18:44:13.533 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:13.618 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:13.703 [main] Register - Email: wfdawsf@makore.com
+[DEBUG] 2021-05-13 18:44:13.816 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 18:44:13.903 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:13.993 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:44:15.249 [main] Register - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:15.249 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:44:16.201 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 18:44:16.201 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:16.284 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:16.365 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:44:16.483 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:16.577 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:16.666 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:17.538 [main] Register - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:17.538 [main] Register - Test Type: Invalid Email
+[DEBUG] 2021-05-13 18:44:17.538 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:17.619 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:17.695 [main] Register - Email: Yosi
+[DEBUG] 2021-05-13 18:44:17.774 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:17.888 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:17.973 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:44:18.572 [main] Register - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:18.572 [main] Register - Test Type: Invalid Password
+[DEBUG] 2021-05-13 18:44:18.572 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:18.651 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:18.729 [main] Register - Email: wfasfw@makorde.com
+[DEBUG] 2021-05-13 18:44:18.827 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:18.927 [main] Register - Password: 123.0
+[DEBUG] 2021-05-13 18:44:19.007 [main] Register - Password Confirmation: 123.0
+[ERROR] 2021-05-13 18:44:20.017 [main] Register - Invalid Password has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:44:20.017 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:44:20.948 [main] Register - Test Type: User Creation Success
+[DEBUG] 2021-05-13 18:44:20.948 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:44:21.027 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:44:21.102 [main] Register - Email: wfasfw@makorde.com
+[DEBUG] 2021-05-13 18:44:21.202 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:44:21.287 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:44:21.384 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:44:22.228 [main] Register - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-13 18:54:47.520 [main] Register - opening website
+[DEBUG] 2021-05-13 18:54:49.858 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:54:50.814 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 18:54:50.815 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 18:54:50.815 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:54:50.982 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:54:51.176 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:54:51.305 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:54:51.424 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:54:52.577 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:52.577 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 18:54:52.577 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:54:52.711 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:54:52.890 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:54:53.008 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:54:53.116 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:54:54.121 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:54.121 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 18:54:54.122 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:54:54.232 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:54:54.348 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:54:54.472 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:54:54.626 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:54:55.628 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:55.628 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 18:54:55.628 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:54:55.726 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:54:55.822 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:54:55.970 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:54:56.078 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:54:57.061 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:57.061 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 18:54:57.061 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:54:57.176 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:54:57.325 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:54:57.492 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:54:57.613 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:54:58.559 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:58.560 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 18:54:58.560 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:54:58.671 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:54:58.793 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:54:58.917 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:54:59.056 [main] Register - Password: Kapara123
+[INFO ] 2021-05-13 18:54:59.992 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:54:59.992 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 18:54:59.992 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:00.109 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:00.219 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:55:00.360 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:55:00.492 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:55:00.593 [main] Register - Password Confirmation: Kaparara123
+[INFO ] 2021-05-13 18:55:01.540 [main] Register - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:55:01.540 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 18:55:01.540 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:01.632 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:01.728 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:55:01.857 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 18:55:01.953 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:55:02.054 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:55:03.156 [main] Register - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:55:03.156 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 18:55:04.117 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 18:55:04.117 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:04.208 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:04.294 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 18:55:04.412 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:55:04.526 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:55:04.626 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:55:05.523 [main] Register - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:55:05.523 [main] Register - Test Type: Invalid Email
+[DEBUG] 2021-05-13 18:55:05.523 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:05.611 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:05.706 [main] Register - Email: Yosi
+[DEBUG] 2021-05-13 18:55:05.806 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:55:05.906 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:55:06.008 [main] Register - Password Confirmation: Kapara123
+[INFO ] 2021-05-13 18:55:06.688 [main] Register - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:55:06.689 [main] Register - Test Type: Invalid Password
+[DEBUG] 2021-05-13 18:55:06.689 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:06.793 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:06.918 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:55:07.061 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:55:07.172 [main] Register - Password: 1
+[DEBUG] 2021-05-13 18:55:07.252 [main] Register - Password Confirmation: 1
+[INFO ] 2021-05-13 18:55:08.125 [main] Register - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 18:55:08.125 [main] Register - Test Type: User Creation Success
+[DEBUG] 2021-05-13 18:55:08.125 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 18:55:08.207 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 18:55:08.296 [main] Register - Email: dsfgsdf@makorde.com
+[DEBUG] 2021-05-13 18:55:08.457 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 18:55:08.559 [main] Register - Password: Kapara123
+[DEBUG] 2021-05-13 18:55:08.660 [main] Register - Password Confirmation: Kapara123
+[ERROR] 2021-05-13 18:55:09.592 [main] Register - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-13 19:21:09.438 [main] Register - opening website
+[DEBUG] 2021-05-13 19:21:11.548 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 19:21:12.869 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 19:21:12.870 [main] Register - Test Type: No First Name
+[DEBUG] 2021-05-13 19:21:12.870 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:13.012 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:13.163 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:13.312 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:13.412 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:14.399 [main] Register - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:14.400 [main] Register - Test Type: No Last Name
+[DEBUG] 2021-05-13 19:21:14.400 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:14.500 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:14.663 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:14.775 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:14.868 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:15.804 [main] Register - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:15.805 [main] Register - Test Type: No Email
+[DEBUG] 2021-05-13 19:21:15.805 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:15.896 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:15.995 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:16.128 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:16.249 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:17.252 [main] Register - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:17.252 [main] Register - Test Type: No Phone Number
+[DEBUG] 2021-05-13 19:21:17.252 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:17.365 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:17.521 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:17.634 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:17.720 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:18.659 [main] Register - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:18.659 [main] Register - Test Type: No Password
+[DEBUG] 2021-05-13 19:21:18.659 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:18.790 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:18.898 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:19.037 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:19.159 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:20.110 [main] Register - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:20.110 [main] Register - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 19:21:20.110 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:20.230 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:20.350 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:20.476 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:20.586 [main] Register - Password: 1234
+[INFO ] 2021-05-13 19:21:21.487 [main] Register - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:21.488 [main] Register - Test Type: Different Passwords
+[DEBUG] 2021-05-13 19:21:21.488 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:21.573 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:21.663 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:21.791 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:21.901 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:21.992 [main] Register - Password Confirmation: 1234
+[ERROR] 2021-05-13 19:21:23.252 [main] Register - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:23.252 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 19:21:24.212 [main] Register - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 19:21:24.212 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:24.298 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:24.379 [main] Register - Email: yuhjmhm@makorde.com
+[DEBUG] 2021-05-13 19:21:24.531 [main] Register - Phone Number: shalom
+[DEBUG] 2021-05-13 19:21:24.634 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:24.726 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:25.625 [main] Register - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:25.626 [main] Register - Test Type: Existing Email
+[DEBUG] 2021-05-13 19:21:25.626 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:25.718 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:25.812 [main] Register - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 19:21:25.930 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:26.038 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:26.130 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:27.036 [main] Register - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:27.036 [main] Register - Test Type: Invalid Email
+[DEBUG] 2021-05-13 19:21:27.036 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:27.139 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:27.229 [main] Register - Email: Yosi
+[DEBUG] 2021-05-13 19:21:27.325 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:27.431 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:27.513 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:28.200 [main] Register - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:28.201 [main] Register - Test Type: Invalid Password
+[DEBUG] 2021-05-13 19:21:28.201 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:28.286 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:28.382 [main] Register - Email: jmyhmyu@makorde.com
+[DEBUG] 2021-05-13 19:21:28.512 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:28.637 [main] Register - Password: 1
+[DEBUG] 2021-05-13 19:21:28.713 [main] Register - Password Confirmation: 1
+[INFO ] 2021-05-13 19:21:29.601 [main] Register - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 19:21:29.602 [main] Register - Test Type: User Creation Success
+[DEBUG] 2021-05-13 19:21:29.602 [main] Register - First Name: nisim
+[DEBUG] 2021-05-13 19:21:29.693 [main] Register - Last Name: kapara
+[DEBUG] 2021-05-13 19:21:29.788 [main] Register - Email: jmyhmyu@makorde.com
+[DEBUG] 2021-05-13 19:21:29.926 [main] Register - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 19:21:30.027 [main] Register - Password: 1234
+[DEBUG] 2021-05-13 19:21:30.118 [main] Register - Password Confirmation: 1234
+[INFO ] 2021-05-13 19:21:31.218 [main] Register - User Creation Success has passed!!! - User registered with valid fields!!
+[INFO ] 2021-05-13 20:11:04.561 [main] Register - opening website
+[DEBUG] 2021-05-13 20:11:07.033 [main] Register - Moving to register page
+[DEBUG] 2021-05-13 20:11:08.019 [main] Register - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2021-05-13 20:11:58.009 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:12:00.340 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:12:01.318 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2021-05-13 20:28:29.805 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:28:32.252 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:28:33.058 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2021-05-13 20:29:37.786 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:29:40.108 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:29:40.909 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[INFO ] 2021-05-13 20:33:33.314 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:33:35.511 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:33:36.495 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 20:33:36.495 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-13 20:33:36.496 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:36.588 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:36.683 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:36.789 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:36.864 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:37.651 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:37.653 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-13 20:33:37.653 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:37.734 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:37.826 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:37.914 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:37.982 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:38.800 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:38.800 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:33:38.800 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:38.880 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:38.959 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:39.044 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:39.123 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:39.925 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:39.925 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-13 20:33:39.925 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:40.009 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:40.084 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:40.193 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:40.272 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:41.117 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:41.117 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:33:41.117 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:41.196 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:41.270 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:41.373 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:41.456 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:42.299 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:42.300 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 20:33:42.300 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:42.375 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:42.449 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:42.545 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:42.633 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:33:43.457 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:43.457 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-13 20:33:43.457 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:43.530 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:43.608 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:43.699 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:43.780 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:43.848 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:33:44.842 [main] Test_HW2 - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:44.842 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:33:45.791 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 20:33:45.791 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:45.866 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:45.946 [main] Test_HW2 - Email: asfcxvsf@makorde.com
+[DEBUG] 2021-05-13 20:33:46.044 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-13 20:33:46.116 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:46.194 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:47.006 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:47.006 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-13 20:33:47.006 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:47.088 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:47.165 [main] Test_HW2 - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 20:33:47.254 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:47.346 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:47.428 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:48.235 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:48.235 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:33:48.235 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:48.319 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:48.397 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-13 20:33:48.477 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:48.562 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:48.630 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:49.211 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:49.211 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-13 20:33:49.211 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:49.286 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:49.373 [main] Test_HW2 - Email: nyny@makorde.com
+[DEBUG] 2021-05-13 20:33:49.467 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:49.545 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-13 20:33:49.612 [main] Test_HW2 - Password Confirmation: 1
+[INFO ] 2021-05-13 20:33:50.426 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:33:50.426 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:33:50.426 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:33:50.515 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:33:50.590 [main] Test_HW2 - Email: nyny@makorde.com
+[DEBUG] 2021-05-13 20:33:50.685 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:33:50.768 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:33:50.833 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:33:51.846 [main] Test_HW2 - User Creation Success has passed!!! - User registered with valid fields!!
+[DEBUG] 2021-05-13 20:33:51.850 [main] Test_HW2 - Logout
+[DEBUG] 2021-05-13 20:33:52.458 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-13 20:37:04.642 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:37:07.013 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:37:07.804 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 20:37:07.805 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-13 20:37:07.805 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:07.906 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:07.998 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:08.078 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:08.145 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:09.001 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:09.001 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-13 20:37:09.001 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:09.069 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:09.168 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:09.259 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:09.343 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:10.157 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:10.157 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:37:10.157 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:10.231 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:10.311 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:10.400 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:10.480 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:11.361 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:11.362 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-13 20:37:11.362 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:11.438 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:11.515 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:11.609 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:11.683 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:12.507 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:12.507 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:37:12.507 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:12.578 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:12.659 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:12.755 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:12.838 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:13.683 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:13.683 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 20:37:13.683 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:13.762 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:13.840 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:13.940 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:14.031 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:37:14.867 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:14.867 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-13 20:37:14.867 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:14.937 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:15.017 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:15.112 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:15.202 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:15.279 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:37:16.277 [main] Test_HW2 - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:16.277 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:37:17.213 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 20:37:17.213 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:17.295 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:17.370 [main] Test_HW2 - Email: nzxczxc@makorde.com
+[DEBUG] 2021-05-13 20:37:17.468 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-13 20:37:17.548 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:17.619 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:18.456 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:18.456 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-13 20:37:18.456 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:18.528 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:18.608 [main] Test_HW2 - Email: wdwqa@makore.com
+[DEBUG] 2021-05-13 20:37:18.701 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:18.785 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:18.847 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:19.659 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:19.659 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:37:19.659 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:19.734 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:19.811 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-13 20:37:19.890 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:19.982 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:20.057 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:20.640 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:20.640 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-13 20:37:20.640 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:20.723 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:20.796 [main] Test_HW2 - Email: vcbsgf@makorde.com
+[DEBUG] 2021-05-13 20:37:20.896 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:20.980 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-13 20:37:21.040 [main] Test_HW2 - Password Confirmation: 1
+[INFO ] 2021-05-13 20:37:21.863 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:37:21.864 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:37:21.864 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:37:21.943 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:37:22.019 [main] Test_HW2 - Email: vcbsgf@makorde.com
+[DEBUG] 2021-05-13 20:37:22.117 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:37:22.199 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:37:22.266 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:37:23.259 [main] Test_HW2 - User Creation Success has passed!!! - User registered with valid fields!!
+[DEBUG] 2021-05-13 20:37:23.265 [main] Test_HW2 - Logout
+[DEBUG] 2021-05-13 20:37:23.885 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-13 20:37:24.301 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-13 20:37:24.301 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:37:24.301 [main] Test_HW2 - Email: jmyhmyu@makorde.com
+[DEBUG] 2021-05-13 20:37:24.395 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-13 20:37:25.362 [main] Test_HW2 - No Email has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:37:25.362 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-13 20:37:25.865 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:37:25.865 [main] Test_HW2 - Email: jmyhmyu@makorde.com
+[INFO ] 2021-05-13 20:38:48.452 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:38:50.666 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:38:51.482 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 20:38:51.483 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-13 20:38:51.483 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:51.579 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:51.675 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:51.761 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:38:51.841 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:38:52.662 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:52.662 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-13 20:38:52.663 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:52.736 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:52.830 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:52.917 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:38:53.001 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:38:53.812 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:53.813 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:38:53.813 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:53.886 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:53.965 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:54.054 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:38:54.118 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:38:54.911 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:54.911 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-13 20:38:54.911 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:54.992 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:55.065 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:55.162 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:38:55.233 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:38:56.055 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:56.056 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:38:56.056 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:56.142 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:56.214 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:56.307 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:56.401 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:38:57.210 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:57.210 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 20:38:57.210 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:57.287 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:57.366 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:57.460 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:57.545 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:38:58.402 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:58.402 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-13 20:38:58.402 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:38:58.487 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:38:58.564 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:38:58.667 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:38:58.761 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:38:58.843 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:38:59.869 [main] Test_HW2 - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:38:59.869 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:39:00.778 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 20:39:00.778 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:39:00.862 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:39:00.943 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:39:01.033 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-13 20:39:01.111 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:39:01.187 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:39:02.007 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:39:02.007 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-13 20:39:02.007 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:39:02.085 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:39:02.162 [main] Test_HW2 - Email: hnikunjk@makore.com
+[DEBUG] 2021-05-13 20:39:02.259 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:39:02.344 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:39:02.426 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:39:03.252 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:39:03.253 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:39:03.253 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:39:03.334 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:39:03.414 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-13 20:39:03.491 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:39:03.579 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:39:03.660 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:39:04.201 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:39:04.201 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-13 20:39:04.201 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:39:04.275 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:39:04.354 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:39:04.448 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:39:04.535 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-13 20:39:04.599 [main] Test_HW2 - Password Confirmation: 1
+[INFO ] 2021-05-13 20:39:05.447 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:39:05.447 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:39:05.448 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:39:05.531 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:39:05.609 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:39:05.712 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:39:05.804 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:39:05.886 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:39:06.887 [main] Test_HW2 - User Creation Success has passed!!! - User registered with valid fields!!
+[DEBUG] 2021-05-13 20:39:06.895 [main] Test_HW2 - Logout
+[DEBUG] 2021-05-13 20:39:07.500 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-13 20:39:07.911 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-13 20:39:07.912 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:39:07.912 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:39:08.635 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:08.635 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:39:08.635 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[INFO ] 2021-05-13 20:39:09.416 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:09.416 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-13 20:39:09.416 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:39:09.508 [main] Test_HW2 - Password: 156441
+[INFO ] 2021-05-13 20:39:10.233 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:10.233 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:39:10.233 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-13 20:39:10.303 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:39:11.030 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:11.030 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-13 20:39:11.030 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-13 20:39:11.132 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:39:11.850 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:11.851 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:39:11.851 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:39:11.939 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-13 20:39:12.884 [main] Test_HW2 - User Creation Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:39:12.884 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-13 20:43:34.627 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:43:37.024 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:43:37.847 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 20:43:37.848 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-13 20:43:37.848 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:37.926 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:38.020 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:38.100 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:38.167 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:39.004 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:39.004 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-13 20:43:39.004 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:39.085 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:39.174 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:39.262 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:39.333 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:40.155 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:40.155 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:43:40.155 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:40.227 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:40.300 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:40.388 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:40.460 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:41.288 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:41.288 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-13 20:43:41.288 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:41.367 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:41.443 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:41.558 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:41.630 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:42.438 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:42.438 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:43:42.438 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:42.517 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:42.588 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:42.684 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:42.767 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:43.594 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:43.594 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 20:43:43.594 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:43.672 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:43.756 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:43.848 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:43.931 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:43:44.769 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:44.769 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-13 20:43:44.769 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:44.842 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:44.917 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:45.015 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:45.100 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:45.179 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:43:46.189 [main] Test_HW2 - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:46.189 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:43:47.146 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 20:43:47.146 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:47.230 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:47.303 [main] Test_HW2 - Email: xczwsaas@makore.com
+[DEBUG] 2021-05-13 20:43:47.398 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-13 20:43:47.477 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:47.555 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:43:48.585 [main] Test_HW2 - Invalid Phone Number has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:48.585 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:43:49.480 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-13 20:43:49.480 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:49.562 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:49.640 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:49.733 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:49.814 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:49.886 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:50.729 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:50.729 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:43:50.729 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:50.808 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:50.885 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-13 20:43:50.963 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:51.055 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:51.131 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:43:51.684 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:51.684 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-13 20:43:51.684 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:51.758 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:51.836 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:51.926 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:52.004 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-13 20:43:52.065 [main] Test_HW2 - Password Confirmation: 1
+[INFO ] 2021-05-13 20:43:52.872 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:43:52.872 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:43:52.872 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:43:52.940 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:43:53.019 [main] Test_HW2 - Email: xcvcxbbbb@makorde.com
+[DEBUG] 2021-05-13 20:43:53.124 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:43:53.201 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:43:53.267 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:43:54.093 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[DEBUG] 2021-05-13 20:43:54.097 [main] Test_HW2 - Logout
+[INFO ] 2021-05-13 20:44:54.779 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-13 20:44:57.136 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:44:58.127 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-13 20:44:58.128 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-13 20:44:58.128 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:44:58.235 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:44:58.334 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:44:58.429 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:44:58.506 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:44:59.342 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:44:59.342 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-13 20:44:59.342 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:44:59.420 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:44:59.518 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:44:59.604 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:44:59.675 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:00.503 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:00.503 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:45:00.503 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:00.581 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:00.657 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:00.745 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:00.826 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:01.652 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:01.652 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-13 20:45:01.653 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:01.736 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:01.813 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:01.914 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:01.994 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:02.838 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:02.838 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:45:02.838 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:02.919 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:02.996 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:03.098 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:03.188 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:04.031 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:04.031 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-13 20:45:04.031 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:04.109 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:04.186 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:04.281 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:04.374 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:45:05.201 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:05.201 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-13 20:45:05.202 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:05.276 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:05.350 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:05.445 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:05.520 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:05.588 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-13 20:45:06.565 [main] Test_HW2 - Different Passwords has failed!!!  - User managed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:06.565 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-13 20:45:07.482 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-13 20:45:07.482 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:07.561 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:07.637 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:07.736 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-13 20:45:07.810 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:07.885 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:08.732 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:08.732 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-13 20:45:08.732 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:08.812 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:08.887 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:08.984 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:09.068 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:09.134 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:09.992 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:09.992 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:45:09.992 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:10.080 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:10.167 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-13 20:45:10.241 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:10.328 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:10.395 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:10.954 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:10.954 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-13 20:45:10.954 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:11.026 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:11.100 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-13 20:45:11.201 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:11.286 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-13 20:45:11.361 [main] Test_HW2 - Password Confirmation: 1
+[INFO ] 2021-05-13 20:45:12.181 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-13 20:45:12.182 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-13 20:45:12.182 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-13 20:45:12.260 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-13 20:45:12.339 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-13 20:45:12.440 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-13 20:45:12.532 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-13 20:45:12.597 [main] Test_HW2 - Password Confirmation: 1234
+[INFO ] 2021-05-13 20:45:13.561 [main] Test_HW2 - User Creation Success has passed!!! - User registered with valid fields!!
+[DEBUG] 2021-05-13 20:45:13.566 [main] Test_HW2 - Logout
+[DEBUG] 2021-05-13 20:45:14.169 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-13 20:45:14.583 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-13 20:45:14.583 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-13 20:45:14.583 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:45:15.380 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:15.380 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-13 20:45:15.380 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[INFO ] 2021-05-13 20:45:16.160 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:16.161 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-13 20:45:16.161 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:45:16.253 [main] Test_HW2 - Password: 156441
+[INFO ] 2021-05-13 20:45:16.991 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:16.991 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-13 20:45:16.991 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-13 20:45:17.079 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:45:17.828 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:17.828 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-13 20:45:17.828 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-13 20:45:17.922 [main] Test_HW2 - Password: 1234
+[INFO ] 2021-05-13 20:45:18.671 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:18.672 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-13 20:45:18.672 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-13 20:45:18.765 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-13 20:45:19.713 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-13 20:45:19.713 [main] Test_HW2 - Moving to login page

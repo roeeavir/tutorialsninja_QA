@@ -36,7 +36,7 @@ public class Register {
 
     @Before
     public void setUp() throws IOException {
-        System.setProperty("webdriver.chrome.driver", "D:\\Afeka\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
@@ -100,12 +100,13 @@ public class Register {
             currentURL = driver.getCurrentUrl();
 
 
-            if (!currentURL.equals(registerURL) && i != rowCount + 1) {
+            if (!currentURL.equals(registerURL) && i != rowCount) {
                 logger.error(row.getCell(0).getStringCellValue() + " has failed!!!  - User managed to register with invalid fields!!");
                 logger.debug("Moving to register page");
                 driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[2]")).click();
-                driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a")).click();
-            } else if (currentURL.equals(registerURL) && i != rowCount + 1) {
+                driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")).click();
+                driver.navigate().to(registerURL);
+            } else if (currentURL.equals(registerURL) && i != rowCount) {
                 logger.info(row.getCell(0).getStringCellValue() + " has passed!!! - User failed to register with invalid fields!!");
             } else if (currentURL.equals(registerURL)) {
                 logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - User failed to register with valid fields!!");
