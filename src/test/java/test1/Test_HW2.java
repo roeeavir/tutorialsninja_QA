@@ -27,6 +27,8 @@ public class Test_HW2 {
     private String currentURL;
     private String loginURL;
     ReadExcl objExcelFile = new ReadExcl();
+    private final String shoppingCartURL = "http://tutorialsninja.com/demo/index.php?route=checkout/cart";
+
 
     @Before
     public void setUp() {
@@ -48,8 +50,62 @@ public class Test_HW2 {
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
         driver.manage().window().setSize(new Dimension(1004, 724));
+        sanityCheck(logger);
+        itemSearch();
+    }
+
+    private void itemSearch() {
+
+    }
+
+    private void sanityCheck(Logger logger) throws IOException {
         register(logger);
         login(logger);
+        shoppingCart(logger);
+    }
+
+    private void shoppingCart(Logger logger) {
+        logger.info("Shopping Cart Tests");
+        logger.debug("Test Type: Adding item without filling required fields");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[2]/h4/a")).click();
+        driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
+            logger.debug("Test Type: Adding item without filling required fields - Pass");
+        else
+            logger.debug("Test Type: Adding item without filling required fields - Failed");
+
+        logger.debug("Test Type: Adding item that out of stock");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/div/div[3]/button[1]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
+            logger.debug("Test Type:Adding item that out of stock - Pass");
+        else {
+            logger.debug("Test Type: Adding item that out of stock - Failed");
+            driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")).click();
+        }
+
+        logger.debug("Test Type: Adding item to shopping cart");
+        driver.get("http://tutorialsninja.com/demo/index.php?route=product/product&path=25_28&product_id=33");
+        driver.get("http://tutorialsninja.com/demo/index.php?route=product/product&path=25_28&product_id=33");
+        driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
+            logger.debug("Test Type:Adding item to shopping cart - Failed");
+        else
+            logger.debug("Test Type: Adding item to shopping cart - Pass");
+
+        logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart");
+        driver.get("http://tutorialsninja.com/demo/index.php?route=product/product&path=25_28&product_id=33");
+        driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).getAttribute("value").equals("2"))
+            logger.debug("Test Type:Adding item to shopping cart that already exists in the shopping cart - Pass");
+        else
+            logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed");
+
     }
 
     private void login(Logger logger) throws IOException {
@@ -64,8 +120,8 @@ public class Test_HW2 {
         logger.debug("Moving to login page");
         driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]")).click();
         driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a")).click();
-        loginURL=driver.getCurrentUrl();
-        logger.debug("Register URL: " + loginURL);
+        loginURL = driver.getCurrentUrl();
+        logger.debug("Login URL: " + loginURL);
         Row headerRow = thsSheet.getRow(0);
         for (int i = 1; i <= rowCount; i++) {
             Row row = thsSheet.getRow(i);
