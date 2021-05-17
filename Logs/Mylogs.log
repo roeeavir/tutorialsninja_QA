@@ -3998,3 +3998,58 @@
 [DEBUG] 2021-05-17 23:25:46.717 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
 [DEBUG] 2021-05-17 23:25:46.717 [main] Test_HW2 - Search Text: Mac
 [DEBUG] 2021-05-17 23:25:47.256 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-17 23:30:11.231 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:30:13.826 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-17 23:30:14.032 [main] Test_HW2 - Logout
+[INFO ] 2021-05-17 23:31:45.227 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:31:47.799 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-17 23:31:48.001 [main] Test_HW2 - Logout
+[INFO ] 2021-05-17 23:34:38.866 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:34:41.370 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-17 23:34:41.581 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-17 23:34:41.928 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-17 23:34:41.928 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-17 23:34:41.928 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-17 23:34:42.522 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-17 23:34:42.522 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-17 23:34:42.522 [main] Test_HW2 - Email: xcccccddcccfdcc@makorde.com
+[DEBUG] 2021-05-17 23:34:43.113 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-17 23:34:43.113 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-17 23:34:43.113 [main] Test_HW2 - Email: xcccccddcccfdcc@makorde.com
+[DEBUG] 2021-05-17 23:34:43.174 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-17 23:34:43.752 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-17 23:34:43.752 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-17 23:34:43.752 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-17 23:34:43.797 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-17 23:34:44.375 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-17 23:34:44.376 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-17 23:34:44.376 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-17 23:34:44.440 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-17 23:34:45.009 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-17 23:34:45.009 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-17 23:34:45.009 [main] Test_HW2 - Email: xcccccddcccfdcc@makorde.com
+[DEBUG] 2021-05-17 23:34:45.069 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-17 23:34:45.966 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-17 23:34:45.967 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-17 23:34:45.967 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-17 23:34:48.994 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-17 23:34:48.994 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-17 23:34:49.811 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-17 23:34:49.854 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-17 23:34:51.263 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-17 23:34:51.264 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-17 23:34:52.198 [main] Test_HW2 - Test Type:Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-17 23:34:52.198 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:34:52.206 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:34:52.561 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:34:52.562 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:34:52.562 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:34:52.612 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-17 23:34:52.612 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:34:52.906 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:34:52.907 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:34:53.291 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:34:53.291 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:34:53.589 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:34:53.589 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:34:54.280 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found: iMac
