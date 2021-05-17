@@ -50,13 +50,10 @@ public class Test_HW2 {
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
         driver.manage().window().setSize(new Dimension(1004, 724));
-        sanityCheck(logger);
-        itemSearch();
+//        sanityCheck(logger);
+        itemSearch(logger);
     }
 
-    private void itemSearch() {
-
-    }
 
     private void sanityCheck(Logger logger) throws IOException {
         register(logger);
@@ -150,11 +147,11 @@ public class Test_HW2 {
                 logger.debug("Moving to login page");
                 driver.navigate().to(loginURL);
             } else if (currentURL.equals(loginURL) && i != rowCount) {
-                logger.info(row.getCell(0).getStringCellValue() + " has passed!!! - User failed to login with invalid fields!!");
+                logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - User failed to login with invalid fields!!");
             } else if (currentURL.equals(loginURL)) {
                 logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - User failed to login with valid fields!!");
             } else {
-                logger.info(row.getCell(0).getStringCellValue() + " has passed!!! - User login with valid fields!!");
+                logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - User login with valid fields!!");
             }
         }
     }
@@ -193,13 +190,11 @@ public class Test_HW2 {
                 }
             }
             driver.findElement(By.cssSelector("#content > form > div > div > input[type=checkbox]:nth-child(2)")).click();
-
             driver.findElement(By.cssSelector("#content > form > div > div > input.btn.btn-primary")).click();
 
             driver.navigate().to(driver.getCurrentUrl());
 
             currentURL = driver.getCurrentUrl();
-
 
             if (!currentURL.equals(registerURL) && i != rowCount) {
                 logger.error(row.getCell(0).getStringCellValue() + " has failed!!!  - User managed to register with invalid fields!!");
@@ -208,14 +203,80 @@ public class Test_HW2 {
                 driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")).click();
                 driver.navigate().to(registerURL);
             } else if (currentURL.equals(registerURL) && i != rowCount) {
-                logger.info(row.getCell(0).getStringCellValue() + " has passed!!! - User failed to register with invalid fields!!");
+                logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - User failed to register with invalid fields!!");
             } else if (currentURL.equals(registerURL)) {
                 logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - User failed to register with valid fields!!");
             } else {
-                logger.info(row.getCell(0).getStringCellValue() + " has passed!!! - User registered with valid fields!!");
+                logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - User registered with valid fields!!");
             }
         }
+    }
 
+    private void itemSearch(Logger logger) throws IOException {
+        logger.info("Item Search Tests");
+        objExcelFile = new ReadExcl();
+        objExcelFile.readExcel("ReadExcels", "RegisterVals.xls", "Item Search");
+        rowCount = ReadExcl.getRowcount();
+        thsSheet = ReadExcl.getsheet();
+        logger.debug("Moving to home page");
+        driver.findElement(By.xpath("//*[@id=\"logo\"]/h1/a")).click();
+        currentURL = driver.getCurrentUrl();
+        String homeURL = driver.getCurrentUrl();
+        logger.debug("Home URL: " + homeURL);
+        Row headerRow = thsSheet.getRow(0);
+        for (int i = 1; i <= rowCount; i++) {
+
+            Row row = thsSheet.getRow(i);
+
+            //Create a loop to print cell values in a row
+
+            logger.debug("Test Type: " + row.getCell(0).getStringCellValue());
+            //Print Excel data in console
+            if (!(row.getCell(1) == null)) {
+                if (row.getCell(1).getCellType() == CellType.STRING) {
+                    logger.debug(headerRow.getCell(1).getStringCellValue() + ": " + row.getCell(1).getStringCellValue());
+                    driver.findElement(By.xpath("//*[@id=\"search\"]/input")).sendKeys(row.getCell(1).getStringCellValue());
+                } else if (row.getCell(1).getCellType() == CellType.NUMERIC) {
+                    logger.debug(headerRow.getCell(1).getStringCellValue() + ": " + row.getCell(1).getNumericCellValue());
+                    driver.findElement(By.id("//*[@id=\"search\"]/input")).sendKeys("" + row.getCell(1).getNumericCellValue());
+                }
+
+            }
+
+            if (i != 1)
+                driver.findElement(By.xpath("//*[@id=\"search\"]/span/button")).click();
+
+            currentURL = driver.getCurrentUrl();
+
+
+            switch (i) {
+                case 1:
+                    if (currentURL.equals(homeURL))
+                        logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - Stayed at home page and no item was found!!");
+                    else
+                        logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - Item was found when it should not have!!");
+                    break;
+                case 2:
+                    if (driver.findElement(By.xpath("//*[@id=\"content\"]/p[2]")).getText().equals("There is no product that matches the search criteria."))
+                        logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - No item was found!!");
+                    else
+                        logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - Item was found when it should not have!!");
+                    break;
+                case 3:
+                    String temp = "" + row.getCell(1).getStringCellValue();
+                    if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[1]/h4/a")).getText().contains(temp))
+                        logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - An item matching the search text was found: "
+                                + driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div[1]/div/div[2]/div[1]/h4/a")).getText());
+                    else
+                        logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - No item was found when it should have been!!");
+                    break;
+            }
+
+            if (i != rowCount) {
+                logger.debug("Moving to home page");
+                driver.navigate().to(homeURL);
+            }
+        }
     }
 
 

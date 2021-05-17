@@ -3885,3 +3885,116 @@
 [DEBUG] 2021-05-14 15:31:22.559 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
 [DEBUG] 2021-05-14 15:31:22.559 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
 [DEBUG] 2021-05-14 15:31:23.401 [main] Test_HW2 - Test Type:Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-17 23:10:44.225 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:10:47.220 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:10:47.476 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:10:47.824 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:10:47.825 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:10:47.825 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:10:47.887 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:10:47.888 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:10:48.165 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:10:48.165 [main] Test_HW2 - Search Text: Yese
+[INFO ] 2021-05-17 23:12:33.372 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:12:35.976 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:12:36.219 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:12:36.567 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:12:43.657 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:12:49.406 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:13:03.253 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:13:34.652 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:13:45.964 [main] Test_HW2 - Search Text: Yese
+[INFO ] 2021-05-17 23:16:18.645 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:16:21.211 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:16:21.421 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/
+[DEBUG] 2021-05-17 23:16:21.422 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:16:21.753 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:16:21.753 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-17 23:16:21.814 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-17 23:16:22.095 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:16:22.402 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:16:22.402 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:16:22.772 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:16:23.031 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:16:23.342 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:16:23.342 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:16:23.867 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found!!
+[INFO ] 2021-05-17 23:16:40.753 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:16:43.332 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:16:43.567 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/
+[DEBUG] 2021-05-17 23:16:45.697 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:16:47.915 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:16:49.234 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-17 23:16:59.841 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has failed!!! - Item was found when it should not have!!
+[INFO ] 2021-05-17 23:20:09.319 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:20:11.843 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:20:12.059 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:20:12.411 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:20:12.412 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:20:12.412 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:20:12.472 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:20:12.472 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:20:12.749 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:20:12.749 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:20:13.148 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:20:13.148 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:20:13.436 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:20:13.437 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:20:13.958 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found!!
+[DEBUG] 2021-05-17 23:20:13.959 [main] Test_HW2 - Moving to home page
+[INFO ] 2021-05-17 23:20:22.439 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:20:25.422 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:20:25.660 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:20:26.013 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:20:37.127 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:20:38.222 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:20:44.406 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:20:45.388 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:20:49.149 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:20:53.014 [main] Test_HW2 - Search Text: Yese
+[INFO ] 2021-05-17 23:23:36.205 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:23:38.798 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:23:39.003 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:23:39.337 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:23:39.338 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:23:39.338 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:23:39.396 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-17 23:23:39.396 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:23:39.673 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:23:39.673 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:23:40.047 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:23:40.047 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:23:40.331 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:23:40.331 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:23:40.978 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found!!
+[DEBUG] 2021-05-17 23:23:40.978 [main] Test_HW2 - Moving to home page
+[INFO ] 2021-05-17 23:24:13.655 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:24:16.220 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:24:16.423 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:24:16.767 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:24:16.768 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:24:16.768 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:24:16.825 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-17 23:24:16.825 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:24:17.100 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:24:17.100 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:24:17.479 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:24:17.479 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:24:17.766 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:24:17.766 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:24:18.295 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found!!
+[INFO ] 2021-05-17 23:25:42.612 [main] Test_HW2 - opening website
+[INFO ] 2021-05-17 23:25:45.167 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-17 23:25:45.393 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:25:45.743 [main] Test_HW2 - Home URL: http://tutorialsninja.com/demo/index.php?route=common/home
+[DEBUG] 2021-05-17 23:25:45.744 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, does not click on search button
+[DEBUG] 2021-05-17 23:25:45.744 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:25:45.799 [main] Test_HW2 - Valid input, matches with an existing item, does not click on search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-17 23:25:45.799 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:25:46.071 [main] Test_HW2 - Test Type: Valid input, does not match with an existing item, click on search button
+[DEBUG] 2021-05-17 23:25:46.071 [main] Test_HW2 - Search Text: Yese
+[DEBUG] 2021-05-17 23:25:46.441 [main] Test_HW2 - Valid input, does not match with an existing item, click on search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-17 23:25:46.441 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-17 23:25:46.717 [main] Test_HW2 - Test Type: Valid input, matches with an existing item, click on search button
+[DEBUG] 2021-05-17 23:25:46.717 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-17 23:25:47.256 [main] Test_HW2 - Valid input, matches with an existing item, click on search button has passed!!! - An item matching the search text was found: iMac
