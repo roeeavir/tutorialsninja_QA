@@ -4770,3 +4770,2224 @@
 [DEBUG] 2021-05-18 18:10:03.456 [main] Test_HW2 - Test Type: Change currency to Pound - Failed
 [DEBUG] 2021-05-18 18:10:03.456 [main] Test_HW2 - Test Type: Change currency to US
 [DEBUG] 2021-05-18 18:10:04.197 [main] Test_HW2 - Test Type: Change currency to US - Failed
+[INFO ] 2021-05-18 22:48:17.208 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:48:19.206 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:48:19.478 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:48:20.518 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:48:20.518 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:48:20.518 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:20.618 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:20.735 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:20.844 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:20.914 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:21.750 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:21.750 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:48:21.750 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:21.829 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:21.928 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:22.010 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:22.087 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:22.910 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:22.911 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:48:22.911 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:23.000 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:23.073 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:23.172 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:23.244 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:24.058 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:24.058 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:48:24.058 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:24.143 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:24.217 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:24.328 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:24.417 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:25.225 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:25.226 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:48:25.226 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:25.305 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:25.379 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:25.480 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:25.567 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:26.385 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:26.385 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:48:26.385 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:26.460 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:26.541 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:26.663 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:26.758 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:27.596 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:27.596 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:48:27.596 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:27.672 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:27.744 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:27.867 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:27.946 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:28.024 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:28.834 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:28.834 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:48:28.834 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:28.923 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:28.997 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:29.104 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:48:29.185 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:29.258 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:30.065 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:30.065 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:48:30.065 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:30.141 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:30.218 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:30.335 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:30.421 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:30.495 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:31.294 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:31.295 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:48:31.295 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:31.367 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:31.444 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:48:31.518 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:31.610 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:31.688 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:48:32.277 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:32.278 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:48:32.278 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:32.348 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:32.424 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:48:32.523 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:32.608 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:48:32.672 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:48:33.474 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:48:33.474 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:48:33.474 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:48:33.560 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:48:33.642 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:48:33.743 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:48:33.831 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:33.897 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:48:34.728 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:48:34.729 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:48:34.737 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:48:35.124 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:48:35.124 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:48:35.124 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:35.819 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:48:35.819 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:48:35.819 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:48:36.546 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:48:36.546 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:48:36.546 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:48:36.639 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:48:37.347 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:48:37.348 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:48:37.348 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:48:37.423 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:38.116 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:48:38.116 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:48:38.116 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:48:38.206 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:38.896 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:48:38.896 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:48:38.896 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:48:38.983 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:48:40.088 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:48:40.088 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:48:40.088 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:48:43.177 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 22:48:43.177 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:48:43.972 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:48:43.994 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:48:44.068 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-18 22:50:51.731 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:50:53.788 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:50:54.044 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:50:55.084 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:50:55.085 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:50:55.085 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:50:55.196 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:50:55.336 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:50:55.459 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:50:55.548 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:50:56.376 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:50:56.376 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:50:56.377 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:50:56.450 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:50:56.555 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:50:56.658 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:50:56.729 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:50:57.547 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:50:57.547 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:50:57.547 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:50:57.620 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:50:57.695 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:50:57.790 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:50:57.875 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:50:58.682 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:50:58.682 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:50:58.682 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:50:58.768 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:50:58.845 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:50:58.946 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:50:59.013 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:50:59.838 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:50:59.838 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:50:59.838 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:50:59.918 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:50:59.993 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:00.096 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:00.198 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:01.020 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:01.021 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:51:01.021 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:01.091 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:01.165 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:01.274 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:01.360 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:02.165 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:02.165 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:51:02.165 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:02.244 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:02.314 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:02.414 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:02.494 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:02.562 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:03.331 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:03.331 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:51:03.332 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:03.418 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:03.489 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:03.592 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:51:03.664 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:03.739 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:04.527 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:04.527 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:51:04.527 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:04.610 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:04.678 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:04.787 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:04.866 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:04.944 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:05.769 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:05.770 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:51:05.770 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:05.858 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:05.931 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:51:06.012 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:06.097 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:06.180 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:06.766 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:06.768 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:51:06.768 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:06.841 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:06.914 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:07.009 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:07.088 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:51:07.147 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:51:07.924 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:07.924 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:51:07.924 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:08.004 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:08.079 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:51:08.180 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:08.264 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:08.342 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:51:09.169 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:51:09.169 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:51:09.173 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:51:09.570 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:51:09.570 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:51:09.570 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:10.294 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:51:10.294 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:51:10.294 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:51:11.000 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:51:11.000 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:51:11.000 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:51:11.103 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:51:11.808 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:51:11.808 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:51:11.808 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:51:11.882 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:12.584 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:51:12.584 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:51:12.584 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:51:12.686 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:13.406 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:51:13.406 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:51:13.406 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:51:13.504 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:14.546 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:51:14.546 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:51:14.546 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:51:17.836 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 22:51:17.837 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:51:18.626 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:51:18.650 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:51:18.722 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[INFO ] 2021-05-18 22:51:52.635 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:51:54.726 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:51:54.957 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:51:55.731 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:51:55.732 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:51:55.732 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:55.812 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:55.908 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:56.003 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:56.081 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:56.919 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:56.919 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:51:56.920 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:57.003 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:57.093 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:57.180 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:57.270 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:58.208 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:58.208 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:51:58.208 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:58.295 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:58.373 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:51:58.471 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:58.540 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:51:59.340 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:51:59.340 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:51:59.340 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:51:59.413 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:51:59.493 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:51:59.595 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:51:59.677 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:00.487 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:00.487 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:52:00.487 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:00.571 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:00.647 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:00.747 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:00.830 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:01.647 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:01.647 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:52:01.647 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:01.723 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:01.800 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:01.904 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:01.998 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:02.807 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:02.807 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:52:02.807 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:02.892 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:02.972 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:03.076 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:03.164 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:03.229 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:04.053 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:04.053 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:52:04.053 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:04.130 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:04.207 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:04.315 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:52:04.390 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:04.471 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:05.308 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:05.308 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:52:05.308 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:05.392 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:05.470 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:05.569 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:05.662 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:05.745 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:06.561 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:06.561 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:52:06.561 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:06.632 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:06.711 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:52:06.791 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:06.879 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:06.953 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:52:07.530 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:07.530 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:52:07.530 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:07.606 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:07.679 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:52:07.782 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:07.862 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:52:07.925 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:52:08.695 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:52:08.695 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:52:08.695 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:52:08.780 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:52:08.861 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:52:08.969 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:52:09.055 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:09.138 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:52:09.974 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:52:09.974 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:52:09.979 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:52:10.384 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:52:10.384 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:52:10.385 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:11.106 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:52:11.106 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:52:11.106 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:52:11.838 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:52:11.838 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:52:11.838 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:52:11.934 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:52:12.638 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:52:12.639 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:52:12.639 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:52:12.714 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:13.426 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:52:13.426 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:52:13.426 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:52:13.529 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:14.236 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:52:14.236 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:52:14.236 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:52:14.335 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:52:15.215 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:52:15.215 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:52:15.215 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:52:18.360 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 22:52:18.360 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:52:19.277 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:52:19.292 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:52:19.349 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 22:52:20.970 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 22:52:20.971 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 22:52:22.105 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 22:52:22.168 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 22:52:22.173 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:52:22.563 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 22:52:22.571 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 22:52:22.571 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:52:22.894 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:52:23.273 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 22:52:23.273 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:52:23.596 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[INFO ] 2021-05-18 22:54:09.054 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:54:11.183 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:54:11.428 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:54:12.219 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:54:12.220 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:54:12.220 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:12.314 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:12.422 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:12.521 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:12.601 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:13.426 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:13.426 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:54:13.426 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:13.513 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:13.612 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:13.706 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:13.783 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:14.640 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:14.640 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:54:14.640 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:14.708 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:14.783 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:14.877 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:14.956 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:15.796 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:15.796 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:54:15.796 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:15.877 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:15.951 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:16.054 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:16.141 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:16.988 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:16.988 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:54:16.988 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:17.075 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:17.150 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:17.253 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:17.347 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:18.174 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:18.174 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:54:18.174 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:18.259 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:18.332 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:18.438 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:18.537 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:19.353 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:19.353 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:54:19.353 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:19.431 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:19.503 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:19.608 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:19.696 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:19.764 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:20.592 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:20.592 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:54:20.592 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:20.674 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:20.748 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:20.846 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:54:20.916 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:20.983 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:21.778 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:21.779 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:54:21.779 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:21.862 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:21.933 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:22.037 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:22.118 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:22.183 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:22.997 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:22.997 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:54:22.997 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:23.081 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:23.149 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:54:23.258 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:23.352 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:23.432 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:54:23.993 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:23.993 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:54:23.994 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:24.067 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:24.151 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:54:24.251 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:24.333 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:54:24.411 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:54:25.306 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:54:25.306 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:54:25.306 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:54:25.384 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:54:25.452 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:54:25.553 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:54:25.632 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:25.699 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:54:26.556 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:54:26.557 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:54:26.561 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:54:26.956 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:54:26.956 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:54:26.956 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:27.650 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:54:27.650 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:54:27.650 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:54:28.392 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:54:28.392 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:54:28.392 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:54:28.491 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:54:29.201 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:54:29.201 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:54:29.201 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:54:29.283 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:29.985 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:54:29.985 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:54:29.985 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:54:30.082 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:30.783 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:54:30.783 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:54:30.783 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:54:30.887 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:54:31.777 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:54:31.777 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:54:31.777 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:54:34.950 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 22:54:34.950 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:54:35.856 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:54:35.881 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:54:35.947 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 22:54:37.626 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 22:54:37.627 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 22:54:38.642 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 22:54:38.709 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 22:54:38.712 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:54:39.141 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 22:54:39.144 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 22:54:39.144 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:54:39.456 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:54:39.823 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 22:54:39.823 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:54:40.152 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[INFO ] 2021-05-18 22:56:01.513 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:56:03.574 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:56:03.802 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:56:04.578 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:56:04.579 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:56:04.579 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:04.668 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:04.761 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:04.845 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:04.910 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:05.718 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:05.718 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:56:05.718 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:05.808 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:05.899 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:05.997 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:06.077 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:06.923 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:06.923 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:56:06.923 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:06.996 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:07.071 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:07.160 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:07.241 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:08.099 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:08.099 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:56:08.099 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:08.180 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:08.253 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:08.356 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:08.425 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:09.262 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:09.262 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:56:09.262 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:09.337 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:09.413 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:09.513 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:09.591 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:10.451 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:10.451 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:56:10.451 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:10.540 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:10.619 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:10.719 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:10.814 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:11.685 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:11.685 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:56:11.685 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:11.774 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:11.849 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:11.947 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:12.026 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:12.091 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:12.934 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:12.934 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:56:12.934 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:13.023 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:13.100 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:13.201 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:56:13.273 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:13.346 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:14.168 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:14.168 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:56:14.168 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:14.259 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:14.332 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:14.434 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:14.512 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:14.579 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:15.410 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:15.410 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:56:15.410 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:15.498 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:15.575 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:56:15.651 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:15.741 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:15.822 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:56:16.431 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:16.432 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:56:16.432 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:16.511 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:16.585 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:56:16.688 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:16.763 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:56:16.830 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:56:17.650 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:56:17.651 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:56:17.651 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:56:17.733 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:56:17.814 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:56:17.919 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:56:18.010 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:18.091 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:56:18.929 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:56:18.929 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:56:18.934 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:56:19.332 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:56:19.332 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:56:19.332 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:20.021 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:56:20.021 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:56:20.021 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:56:20.714 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:56:20.714 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:56:20.714 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:56:20.810 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:56:21.484 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:56:21.485 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:56:21.485 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:56:21.567 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:22.284 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:56:22.284 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:56:22.284 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:56:22.391 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:23.112 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:56:23.112 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:56:23.112 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:56:23.209 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:56:24.104 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:56:24.104 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:56:24.104 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:56:27.229 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 22:56:27.229 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:56:28.163 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:56:28.185 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:56:28.258 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 22:56:29.844 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 22:56:29.844 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 22:56:30.856 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 22:56:30.926 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 22:56:30.929 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:56:31.398 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 22:56:31.398 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 22:56:31.485 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 22:56:31.486 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:56:31.856 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:56:31.857 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 22:56:32.313 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 22:56:32.313 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:56:32.644 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:56:32.644 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 22:56:33.487 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 22:56:33.487 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 22:56:33.487 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 22:56:34.446 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 22:56:34.446 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 22:57:48.563 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:57:50.614 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:57:50.840 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:57:51.639 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:57:51.639 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:57:51.639 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:51.747 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:51.880 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:51.983 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:52.067 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:52.881 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:52.881 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:57:52.881 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:52.964 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:53.063 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:53.150 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:53.225 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:54.017 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:54.017 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:57:54.017 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:54.100 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:54.173 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:54.263 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:54.331 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:55.093 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:55.093 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:57:55.093 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:55.166 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:55.236 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:55.334 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:55.412 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:56.208 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:56.208 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:57:56.208 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:56.289 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:56.362 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:56.476 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:56.563 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:57.396 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:57.396 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:57:57.396 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:57.477 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:57.546 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:57.647 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:57.730 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:58.542 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:58.542 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:57:58.543 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:58.628 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:58.702 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:57:58.809 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:57:58.899 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:57:58.966 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:57:59.762 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:57:59.762 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 22:57:59.762 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:57:59.846 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:57:59.923 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:58:00.028 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 22:58:00.111 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:00.186 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:58:01.017 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:58:01.017 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 22:58:01.017 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:58:01.100 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:58:01.177 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:58:01.282 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:58:01.375 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:01.459 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:58:02.252 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:58:02.252 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:58:02.252 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:58:02.333 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:58:02.412 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 22:58:02.490 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:58:02.584 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:02.659 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:58:03.214 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:58:03.214 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 22:58:03.214 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:58:03.285 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:58:03.366 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:58:03.470 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:58:03.548 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 22:58:03.611 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 22:58:04.397 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:58:04.397 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 22:58:04.397 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:58:04.469 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:58:04.547 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 22:58:04.659 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:58:04.749 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:04.824 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 22:58:05.635 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 22:58:05.636 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 22:58:05.641 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 22:58:06.037 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 22:58:06.037 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:58:06.037 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:06.760 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:58:06.760 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:58:06.760 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:58:07.492 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:58:07.492 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 22:58:07.492 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:58:07.589 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 22:58:08.309 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:58:08.310 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 22:58:08.310 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 22:58:08.389 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:09.089 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:58:09.089 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 22:58:09.089 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 22:58:09.183 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:09.897 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 22:58:09.898 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 22:58:09.898 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 22:58:10.000 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:58:10.913 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 22:58:10.913 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 22:58:10.913 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 22:58:14.101 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 22:58:14.101 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 22:58:15.007 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 22:58:15.027 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 22:58:15.098 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 22:58:16.665 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 22:58:16.665 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 22:58:17.679 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 22:58:17.746 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 22:58:17.749 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:58:18.148 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 22:58:18.148 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 22:58:18.218 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 22:58:18.218 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:58:18.528 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:58:18.528 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 22:58:18.995 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 22:58:18.995 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 22:58:19.318 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 22:58:19.318 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 22:58:20.139 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 22:58:20.139 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 22:58:20.139 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 22:58:21.102 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 22:58:21.102 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 22:59:49.382 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 22:59:51.470 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 22:59:51.716 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 22:59:52.522 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 22:59:52.522 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 22:59:52.523 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:52.609 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:52.744 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:52.844 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:52.926 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:59:53.736 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:53.736 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 22:59:53.736 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:53.820 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:53.917 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:54.007 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:54.084 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:59:54.864 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:54.864 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 22:59:54.864 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:54.947 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:55.023 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:55.114 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:55.189 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:59:55.991 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:55.991 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 22:59:55.991 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:56.073 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:56.143 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:56.243 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:56.310 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:59:57.108 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:57.109 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 22:59:57.109 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:57.193 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:57.267 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:57.368 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:57.447 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 22:59:58.234 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:58.235 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 22:59:58.235 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:58.315 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:58.393 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:58.490 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:58.570 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:59.368 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 22:59:59.368 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 22:59:59.368 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 22:59:59.452 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 22:59:59.530 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 22:59:59.635 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 22:59:59.718 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 22:59:59.790 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:00:00.597 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:00:00.597 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:00:00.597 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:00:00.677 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:00:00.748 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:00:00.846 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:00:00.918 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:00.993 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:00:01.800 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:00:01.800 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:00:01.800 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:00:01.876 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:00:01.947 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:00:02.051 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:00:02.145 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:02.220 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:00:03.012 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:00:03.012 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:00:03.012 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:00:03.098 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:00:03.182 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:00:03.252 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:00:03.340 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:03.419 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:00:03.991 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:00:03.991 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:00:03.991 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:00:04.068 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:00:04.143 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:00:04.244 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:00:04.326 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:00:04.387 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:00:05.153 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:00:05.153 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:00:05.153 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:00:05.235 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:00:05.317 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:00:05.415 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:00:05.507 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:05.577 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:00:06.384 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:00:06.384 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:00:06.390 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:00:06.785 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:00:06.786 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:00:06.786 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:07.480 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:00:07.480 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:00:07.480 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:00:08.226 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:00:08.226 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:00:08.226 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:00:08.315 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:00:09.012 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:00:09.012 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:00:09.012 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:00:09.095 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:09.789 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:00:09.789 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:00:09.789 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:00:09.890 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:10.595 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:00:10.595 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:00:10.595 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:00:10.698 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:00:11.576 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:00:11.576 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:00:11.576 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:00:14.635 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:00:14.635 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:00:15.571 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:00:15.592 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:00:15.664 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:00:17.281 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:00:17.281 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:00:18.322 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:00:18.384 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:00:18.387 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:00:18.777 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:00:18.777 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:00:18.850 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 23:00:18.851 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:00:19.159 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:00:19.159 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:00:19.634 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:00:19.634 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:00:19.963 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:00:19.963 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:00:20.765 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:00:21.232 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:00:21.232 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:00:22.191 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:00:22.191 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 23:04:18.098 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:04:20.251 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:04:20.478 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:04:21.267 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:04:21.268 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:04:21.268 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:21.369 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:21.463 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:21.558 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:21.647 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:22.469 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:22.469 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:04:22.469 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:22.549 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:22.648 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:22.749 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:22.820 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:23.616 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:23.616 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:04:23.616 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:23.686 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:23.754 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:23.834 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:23.917 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:24.694 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:24.694 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:04:24.694 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:24.759 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:24.839 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:24.938 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:25.010 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:25.830 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:25.830 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:04:25.830 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:25.914 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:25.991 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:26.093 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:26.182 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:26.974 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:26.975 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:04:26.975 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:27.048 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:27.127 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:27.228 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:27.305 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:28.105 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:28.105 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:04:28.105 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:28.184 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:28.264 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:28.361 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:28.439 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:28.506 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:29.333 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:29.333 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:04:29.334 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:29.404 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:29.481 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:29.584 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:04:29.667 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:29.741 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:30.523 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:30.524 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:04:30.525 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:30.612 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:30.684 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:30.783 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:30.865 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:30.945 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:31.743 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:31.743 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:04:31.743 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:31.822 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:31.899 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:04:31.973 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:32.065 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:32.143 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:04:32.703 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:32.703 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:04:32.704 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:32.772 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:32.849 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:04:32.955 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:33.033 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:04:33.097 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:04:33.861 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:04:33.862 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:04:33.862 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:04:33.935 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:04:34.010 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:04:34.113 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:04:34.193 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:34.256 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:04:35.080 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:04:35.080 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:04:35.084 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:04:35.480 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:04:35.480 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:04:35.480 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:36.174 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:04:36.175 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:04:36.175 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:04:36.907 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:04:36.907 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:04:36.907 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:04:37.004 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:04:37.705 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:04:37.705 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:04:37.705 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:04:37.782 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:38.483 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:04:38.483 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:04:38.483 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:04:38.578 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:39.284 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:04:39.284 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:04:39.284 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:04:39.372 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:04:40.255 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:04:40.255 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:04:40.255 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:04:43.326 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:04:43.326 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:04:44.275 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:04:44.313 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:04:44.417 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:04:46.082 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:04:46.082 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:04:47.161 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:04:47.235 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:04:47.243 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:04:47.688 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:04:47.688 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:04:47.781 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:04:47.781 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:04:48.150 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:04:48.150 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:04:48.614 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:04:48.614 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:04:48.953 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:04:48.953 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:04:49.797 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:04:50.214 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:04:50.214 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:04:51.172 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:04:51.172 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 23:05:36.658 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:05:38.756 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:05:38.996 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:05:39.815 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:05:39.815 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:05:39.815 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:39.903 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:40.002 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:40.114 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:40.190 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:41.005 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:41.005 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:05:41.005 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:41.087 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:41.178 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:41.270 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:41.341 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:42.130 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:42.130 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:05:42.131 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:42.209 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:42.284 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:42.372 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:42.439 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:43.231 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:43.231 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:05:43.231 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:43.303 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:43.378 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:43.483 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:43.555 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:44.343 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:44.344 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:05:44.344 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:44.419 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:44.490 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:44.597 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:44.687 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:45.490 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:45.491 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:05:45.491 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:45.576 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:45.661 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:45.761 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:45.848 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:46.682 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:46.682 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:05:46.682 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:46.763 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:46.836 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:46.936 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:47.018 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:47.094 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:47.901 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:47.901 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:05:47.901 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:47.981 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:48.052 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:48.152 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:05:48.225 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:48.301 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:49.129 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:49.139 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:05:49.139 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:49.212 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:49.283 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:49.383 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:49.466 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:49.545 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:50.322 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:50.322 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:05:50.322 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:50.393 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:50.472 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:05:50.549 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:50.638 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:50.719 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:05:51.303 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:51.303 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:05:51.303 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:51.384 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:51.460 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:05:51.566 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:51.654 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:05:51.718 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:05:52.516 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:05:52.516 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:05:52.517 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:05:52.598 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:05:52.682 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:05:52.779 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:05:52.855 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:52.921 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:05:53.743 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:05:53.743 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:05:53.748 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:05:54.133 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:05:54.134 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:05:54.134 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:54.818 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:05:54.818 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:05:54.819 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:05:55.537 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:05:55.537 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:05:55.537 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:05:55.640 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:05:56.358 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:05:56.358 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:05:56.359 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:05:56.432 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:57.150 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:05:57.150 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:05:57.150 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:05:57.247 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:57.938 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:05:57.938 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:05:57.938 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:05:58.022 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:05:58.885 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:05:58.885 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:05:58.885 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:06:01.875 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:06:01.875 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:06:02.800 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:06:02.820 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:06:02.898 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:06:04.968 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:06:04.969 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:06:05.954 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:06:06.021 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:06:06.024 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:06:06.497 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:06:06.497 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:06:06.583 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:06:06.583 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:06:06.939 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:06:06.939 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:06:07.417 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:06:07.417 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:06:07.752 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:06:07.752 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:06:08.600 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:06:09.030 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:06:09.031 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:06:09.978 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:06:09.978 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 23:07:24.242 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:07:26.366 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:07:26.595 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:07:27.403 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:07:27.404 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:07:27.404 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:27.506 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:27.606 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:27.698 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:27.781 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:28.579 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:28.579 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:07:28.580 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:28.650 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:28.747 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:28.841 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:28.916 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:29.696 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:29.696 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:07:29.696 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:29.770 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:29.839 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:29.924 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:29.993 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:30.791 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:30.792 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:07:30.792 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:30.868 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:30.941 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:31.049 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:31.116 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:31.894 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:31.895 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:07:31.895 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:31.968 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:32.044 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:32.148 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:32.222 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:33.049 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:33.049 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:07:33.049 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:33.123 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:33.194 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:33.293 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:33.371 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:34.155 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:34.155 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:07:34.155 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:34.226 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:34.306 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:34.407 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:34.483 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:34.551 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:35.367 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:35.367 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:07:35.368 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:35.451 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:35.526 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:35.632 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:07:35.715 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:35.791 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:36.586 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:36.586 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:07:36.586 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:36.674 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:36.750 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:36.851 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:36.942 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:37.022 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:37.837 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:37.838 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:07:37.838 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:37.910 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:37.983 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:07:38.065 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:38.153 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:38.216 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:07:38.764 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:38.764 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:07:38.764 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:38.845 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:38.930 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:07:39.037 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:39.122 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:07:39.186 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:07:39.958 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:07:39.958 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:07:39.958 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:07:40.035 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:07:40.115 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:07:40.211 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:07:40.286 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:40.353 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:07:41.129 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:07:41.129 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:07:41.134 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:07:41.522 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:07:41.523 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:07:41.523 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:42.224 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:07:42.224 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:07:42.224 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:07:42.949 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:07:42.949 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:07:42.949 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:07:43.054 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:07:43.746 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:07:43.746 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:07:43.746 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:07:43.827 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:44.538 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:07:44.538 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:07:44.538 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:07:44.642 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:45.375 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:07:45.375 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:07:45.375 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:07:45.474 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:07:46.369 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:07:46.369 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:07:46.369 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:07:49.438 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:07:49.438 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:07:50.364 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:07:50.382 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:07:50.454 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:07:52.033 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:07:52.033 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:07:53.034 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:07:53.100 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:07:53.103 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:07:53.483 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:07:53.484 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:07:53.583 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 23:07:53.583 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:07:53.892 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:07:53.893 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:07:54.340 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:07:54.340 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:07:54.656 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:07:54.656 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:07:55.456 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:07:56.067 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:07:56.067 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:07:57.041 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:07:57.041 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:07:58.002 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:07:58.871 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:07:58.871 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:07:59.286 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:07:59.286 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:08:00.872 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 23:08:00.872 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 23:08:02.240 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 23:08:02.240 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 23:08:03.252 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[DEBUG] 2021-05-18 23:08:03.792 [main] Test_HW2 - Test Type: Change currency to Euro
+[INFO ] 2021-05-18 23:08:51.129 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:08:53.170 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:08:53.405 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:08:54.194 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:08:54.194 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:08:54.195 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:08:54.295 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:08:54.387 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:08:54.470 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:08:54.550 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:08:55.363 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:08:55.364 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:08:55.364 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:08:55.448 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:08:55.548 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:08:55.630 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:08:55.706 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:08:56.489 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:08:56.489 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:08:56.489 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:08:56.568 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:08:56.645 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:08:56.735 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:08:56.815 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:08:57.609 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:08:57.610 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:08:57.610 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:08:57.701 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:08:57.788 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:08:57.893 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:08:57.974 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:08:58.763 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:08:58.763 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:08:58.763 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:08:58.847 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:08:58.919 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:08:59.019 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:08:59.109 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:08:59.891 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:08:59.891 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:08:59.891 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:08:59.978 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:00.064 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:09:00.153 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:00.233 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:01.047 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:01.047 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:09:01.047 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:01.126 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:01.201 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:09:01.300 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:01.387 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:01.466 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:09:02.286 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:02.286 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:09:02.286 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:02.362 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:02.438 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:09:02.534 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:09:02.606 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:02.680 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:09:03.448 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:03.449 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:09:03.449 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:03.533 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:03.611 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:09:03.713 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:03.790 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:03.853 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:09:04.668 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:04.668 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:09:04.668 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:04.745 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:04.819 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:09:04.894 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:04.996 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:05.072 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:09:05.623 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:05.623 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:09:05.624 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:05.696 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:05.772 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:09:05.876 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:05.954 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:09:06.018 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:09:06.816 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:09:06.816 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:09:06.816 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:09:06.901 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:09:06.985 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:09:07.081 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:09:07.173 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:07.240 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:09:08.053 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:09:08.053 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:09:08.058 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:09:08.465 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:09:08.465 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:09:08.465 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:09.169 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:09:09.169 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:09:09.169 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:09:09.900 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:09:09.900 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:09:09.900 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:09:09.990 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:09:10.682 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:09:10.682 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:09:10.682 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:09:10.761 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:11.459 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:09:11.459 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:09:11.459 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:09:11.566 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:12.276 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:09:12.276 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:09:12.276 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:09:12.370 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:09:13.251 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:09:13.252 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:09:13.252 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:09:16.307 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:09:16.307 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:09:17.242 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:09:17.263 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:09:17.334 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:09:18.970 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:09:18.970 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:09:19.973 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:09:20.039 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:09:20.042 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:09:20.498 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:09:20.498 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:09:20.585 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:09:20.585 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:09:20.937 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:09:20.938 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:09:21.418 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:09:21.418 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:09:21.742 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:09:21.742 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:09:22.574 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:09:23.197 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:09:23.198 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:09:24.169 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:09:24.170 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:09:25.123 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:09:26.018 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:09:26.018 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:09:26.439 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:09:26.439 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:09:27.959 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 23:09:27.959 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[INFO ] 2021-05-18 23:10:54.680 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:10:56.729 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:10:56.958 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:10:57.741 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:10:57.742 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:10:57.742 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:10:57.832 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:10:57.935 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:10:58.037 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:10:58.122 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:10:58.934 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:10:58.935 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:10:58.935 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:10:59.005 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:10:59.098 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:10:59.188 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:10:59.262 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:00.060 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:00.060 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:11:00.060 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:00.149 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:00.218 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:00.304 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:00.371 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:01.154 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:01.154 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:11:01.154 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:01.238 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:01.313 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:01.416 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:01.484 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:02.297 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:02.298 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:11:02.298 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:02.369 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:02.443 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:02.549 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:02.624 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:03.402 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:03.402 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:11:03.402 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:03.482 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:03.559 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:03.665 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:03.753 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:04.581 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:04.582 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:11:04.582 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:04.667 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:04.742 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:04.851 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:04.940 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:05.020 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:05.827 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:05.827 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:11:05.827 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:05.897 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:05.971 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:06.071 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:11:06.142 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:06.214 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:07.043 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:07.043 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:11:07.043 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:07.125 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:07.202 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:07.305 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:07.396 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:07.461 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:08.276 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:08.276 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:11:08.276 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:08.359 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:08.435 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:11:08.507 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:08.601 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:08.679 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:11:09.237 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:09.237 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:11:09.237 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:09.320 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:09.393 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:11:09.501 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:09.575 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:11:09.639 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:11:10.435 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:11:10.435 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:11:10.435 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:11:10.521 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:11:10.603 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:11:10.699 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:11:10.780 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:10.859 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:11:11.685 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:11:11.685 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:11:11.690 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:11:12.088 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:11:12.089 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:11:12.089 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:12.811 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:11:12.811 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:11:12.811 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:11:13.544 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:11:13.544 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:11:13.544 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:11:13.637 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:11:14.365 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:11:14.365 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:11:14.366 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:11:14.449 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:15.145 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:11:15.145 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:11:15.146 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:11:15.243 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:15.941 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:11:15.942 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:11:15.942 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:11:16.032 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:11:16.950 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:11:16.950 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:11:16.950 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:11:19.993 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:11:19.993 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:11:20.882 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:11:20.900 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:11:20.957 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:11:22.671 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:11:22.671 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:11:23.885 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:11:23.952 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:11:23.956 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:11:24.405 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:11:24.406 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:11:24.495 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:11:24.496 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:11:24.843 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:11:24.843 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:11:25.304 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:11:25.304 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:11:25.636 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:11:25.636 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:11:26.460 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:11:27.038 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:11:27.038 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:11:27.992 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:11:27.992 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:11:29.136 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:11:30.024 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:11:30.024 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:11:30.453 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:11:30.453 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:11:32.156 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Failed
+[DEBUG] 2021-05-18 23:11:32.156 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 23:11:33.334 [main] Test_HW2 - Test Type: Adding valid quantity of items - Failed1
+[DEBUG] 2021-05-18 23:11:33.334 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 23:11:34.367 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[DEBUG] 2021-05-18 23:11:35.373 [main] Test_HW2 - Test Type: Change currency to Euro
+[INFO ] 2021-05-18 23:12:12.592 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:12:14.635 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:12:14.946 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:12:15.752 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:12:15.753 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:12:15.753 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:15.830 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:15.922 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:16.005 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:16.074 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:16.884 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:16.884 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:12:16.884 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:16.961 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:17.056 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:17.154 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:17.290 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:18.083 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:18.083 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:12:18.083 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:18.170 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:18.244 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:18.327 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:18.397 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:19.184 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:19.184 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:12:19.184 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:19.257 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:19.334 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:19.448 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:19.522 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:20.318 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:20.318 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:12:20.318 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:20.403 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:20.472 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:20.570 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:20.649 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:21.445 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:21.445 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:12:21.446 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:21.522 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:21.592 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:21.690 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:21.774 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:22.599 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:22.599 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:12:22.599 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:22.676 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:22.751 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:22.851 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:22.929 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:22.992 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:23.818 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:23.818 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:12:23.818 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:23.892 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:23.970 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:24.070 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:12:24.136 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:24.212 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:25.034 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:25.034 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:12:25.034 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:25.117 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:25.192 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:25.293 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:25.374 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:25.444 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:26.259 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:26.259 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:12:26.259 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:26.334 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:26.414 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:12:26.491 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:26.573 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:26.641 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:12:27.209 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:27.209 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:12:27.209 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:27.289 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:27.363 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:12:27.470 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:27.560 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:12:27.622 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:12:28.389 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:12:28.389 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:12:28.389 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:12:28.473 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:12:28.555 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:12:28.649 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:12:28.725 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:28.793 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:12:29.607 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:12:29.607 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:12:29.611 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:12:30.023 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:12:30.023 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:12:30.023 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:30.735 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:12:30.735 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:12:30.735 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:12:31.462 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:12:31.462 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:12:31.463 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:12:31.558 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:12:32.273 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:12:32.273 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:12:32.273 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:12:32.353 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:33.055 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:12:33.055 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:12:33.055 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:12:33.153 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:33.856 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:12:33.856 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:12:33.856 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:12:33.951 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:12:34.849 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:12:34.850 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:12:34.850 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:12:37.887 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:12:37.887 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:12:38.809 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:12:38.827 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:12:38.885 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:12:40.502 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:12:40.503 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:12:41.487 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:12:41.553 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:12:41.560 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:12:42.027 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:12:42.027 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:12:42.106 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:12:42.106 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:12:42.466 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:12:42.466 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:12:42.937 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:12:42.937 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:12:43.274 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:12:43.275 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:12:44.091 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:12:44.676 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:12:44.676 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:12:45.626 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:12:45.626 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:12:46.598 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:12:47.466 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:12:47.467 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:12:47.886 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:12:47.887 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:12:49.427 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 23:12:49.428 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 23:12:50.827 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 23:12:50.827 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 23:12:51.871 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[DEBUG] 2021-05-18 23:12:52.375 [main] Test_HW2 - Test Type: Change currency to Euro
+[INFO ] 2021-05-18 23:15:39.318 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:15:42.019 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:15:42.252 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:15:43.200 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:15:43.201 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:15:43.201 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:43.300 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:43.401 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:43.506 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:43.586 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:44.412 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:44.412 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:15:44.412 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:44.488 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:44.595 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:44.692 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:44.768 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:45.580 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:45.581 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:15:45.581 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:45.663 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:45.742 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:45.830 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:45.909 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:46.723 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:46.723 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:15:46.724 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:46.803 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:46.876 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:46.977 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:47.046 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:47.888 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:47.888 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:15:47.888 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:47.975 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:48.054 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:48.155 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:48.248 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:49.042 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:49.043 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:15:49.043 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:49.119 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:49.189 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:49.287 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:49.372 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:50.213 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:50.213 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:15:50.213 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:50.288 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:50.362 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:50.459 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:50.540 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:50.607 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:51.483 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:51.483 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:15:51.483 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:51.557 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:51.635 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:51.732 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:15:51.802 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:51.876 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:52.692 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:52.692 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:15:52.693 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:52.764 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:52.840 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:52.940 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:53.021 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:53.100 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:53.927 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:53.927 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:15:53.927 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:53.998 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:54.073 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:15:54.152 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:54.243 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:54.321 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:15:54.888 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:54.888 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:15:54.888 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:54.963 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:55.042 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:15:55.140 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:55.220 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:15:55.282 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:15:56.068 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:15:56.069 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:15:56.069 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:15:56.155 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:15:56.236 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:15:56.327 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:15:56.412 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:56.486 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:15:57.321 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:15:57.321 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:15:57.326 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:15:57.728 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:15:57.728 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:15:57.728 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:15:58.439 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:15:58.439 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:15:58.439 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:15:59.161 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:15:59.162 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:15:59.162 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:15:59.252 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:15:59.951 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:15:59.952 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:15:59.952 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:16:00.027 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:16:00.721 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:16:00.721 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:16:00.721 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:16:00.821 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:16:01.537 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:16:01.537 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:16:01.537 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:16:01.638 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:16:02.554 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:16:02.554 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:16:02.554 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:16:05.579 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:16:05.579 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:16:06.488 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:16:06.506 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:16:06.576 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:16:08.172 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:16:08.172 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:16:09.186 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:16:09.251 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:16:09.254 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:16:09.733 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:16:09.733 [main] Test_HW2 - Search Text: Mac
+[ERROR] 2021-05-18 23:16:09.808 [main] Test_HW2 - Input exists in an item, without clicking on the search button has failed!!! - Item was found when it should not have!!
+[DEBUG] 2021-05-18 23:16:09.808 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:16:10.174 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:16:10.175 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:16:10.661 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:16:10.661 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:16:11.004 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:16:11.004 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:16:11.840 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:16:12.441 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:16:12.441 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:16:13.391 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:16:13.392 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:16:14.344 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:16:15.202 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:16:15.202 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:16:15.622 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:16:15.622 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:16:17.143 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 23:16:17.143 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 23:16:18.494 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 23:16:18.494 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 23:16:19.512 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[DEBUG] 2021-05-18 23:16:29.938 [main] Test_HW2 - Test Type: Change currency to Euro
+[DEBUG] 2021-05-18 23:16:30.582 [main] Test_HW2 - Test Type: Change currency to Euro - Failed
+[DEBUG] 2021-05-18 23:16:30.582 [main] Test_HW2 - Test Type: Change currency to Pound
+[DEBUG] 2021-05-18 23:16:31.220 [main] Test_HW2 - Test Type: Change currency to Pound - Failed
+[DEBUG] 2021-05-18 23:16:31.221 [main] Test_HW2 - Test Type: Change currency to US
+[DEBUG] 2021-05-18 23:16:31.878 [main] Test_HW2 - Test Type: Change currency to US - Failed
+[INFO ] 2021-05-18 23:17:14.663 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 23:17:16.751 [main] Test_HW2 - Register Tests
+[DEBUG] 2021-05-18 23:17:17.042 [main] Test_HW2 - Moving to register page
+[DEBUG] 2021-05-18 23:17:17.856 [main] Test_HW2 - Register URL: http://tutorialsninja.com/demo/index.php?route=account/register
+[DEBUG] 2021-05-18 23:17:17.857 [main] Test_HW2 - Test Type: No First Name
+[DEBUG] 2021-05-18 23:17:17.857 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:17.951 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:18.109 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:18.206 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:18.289 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:19.139 [main] Test_HW2 - No First Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:19.139 [main] Test_HW2 - Test Type: No Last Name
+[DEBUG] 2021-05-18 23:17:19.139 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:19.207 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:19.304 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:19.400 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:19.478 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:20.318 [main] Test_HW2 - No Last Name has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:20.318 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:17:20.318 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:20.395 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:20.475 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:20.569 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:20.646 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:21.474 [main] Test_HW2 - No Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:21.474 [main] Test_HW2 - Test Type: No Phone Number
+[DEBUG] 2021-05-18 23:17:21.474 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:21.561 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:21.647 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:21.752 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:21.833 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:22.680 [main] Test_HW2 - No Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:22.680 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:17:22.680 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:22.761 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:22.845 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:22.978 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:23.080 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:23.880 [main] Test_HW2 - No Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:23.880 [main] Test_HW2 - Test Type: No Confirmed Password
+[DEBUG] 2021-05-18 23:17:23.880 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:23.960 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:24.025 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:24.126 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:24.207 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:25.042 [main] Test_HW2 - No Confirmed Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:25.042 [main] Test_HW2 - Test Type: Different Passwords
+[DEBUG] 2021-05-18 23:17:25.042 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:25.143 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:25.214 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:25.315 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:25.393 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:25.462 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:26.308 [main] Test_HW2 - Different Passwords has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:26.308 [main] Test_HW2 - Test Type: Invalid Phone Number
+[DEBUG] 2021-05-18 23:17:26.308 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:26.390 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:26.464 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:26.564 [main] Test_HW2 - Phone Number: shalom
+[DEBUG] 2021-05-18 23:17:26.636 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:26.711 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:27.524 [main] Test_HW2 - Invalid Phone Number has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:27.524 [main] Test_HW2 - Test Type: Existing Email
+[DEBUG] 2021-05-18 23:17:27.524 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:27.609 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:27.687 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:27.789 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:27.883 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:27.961 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:28.785 [main] Test_HW2 - Existing Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:28.785 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:17:28.786 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:28.864 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:28.943 [main] Test_HW2 - Email: Yosi
+[DEBUG] 2021-05-18 23:17:29.017 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:29.109 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:29.187 [main] Test_HW2 - Password Confirmation: 1234
+[DEBUG] 2021-05-18 23:17:29.774 [main] Test_HW2 - Invalid Email has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:29.774 [main] Test_HW2 - Test Type: Invalid Password
+[DEBUG] 2021-05-18 23:17:29.774 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:29.843 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:29.921 [main] Test_HW2 - Email: wdasfsfasxcz@makore.com
+[DEBUG] 2021-05-18 23:17:30.022 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:30.102 [main] Test_HW2 - Password: 1
+[DEBUG] 2021-05-18 23:17:30.166 [main] Test_HW2 - Password Confirmation: 1
+[DEBUG] 2021-05-18 23:17:30.958 [main] Test_HW2 - Invalid Password has passed!!! - User failed to register with invalid fields!!
+[DEBUG] 2021-05-18 23:17:30.958 [main] Test_HW2 - Test Type: User Creation Success
+[DEBUG] 2021-05-18 23:17:30.958 [main] Test_HW2 - First Name: nisim
+[DEBUG] 2021-05-18 23:17:31.040 [main] Test_HW2 - Last Name: kapara
+[DEBUG] 2021-05-18 23:17:31.114 [main] Test_HW2 - Email: xcccccccc@makorde.com
+[DEBUG] 2021-05-18 23:17:31.211 [main] Test_HW2 - Phone Number: 1.233211231E9
+[DEBUG] 2021-05-18 23:17:31.292 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:31.359 [main] Test_HW2 - Password Confirmation: 1234
+[ERROR] 2021-05-18 23:17:32.186 [main] Test_HW2 - User Creation Success has failed!!! - User failed to register with valid fields!!
+[INFO ] 2021-05-18 23:17:32.186 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 23:17:32.191 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 23:17:32.593 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 23:17:32.593 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 23:17:32.593 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:33.311 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:17:33.311 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 23:17:33.311 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:17:34.042 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:17:34.042 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 23:17:34.042 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:17:34.135 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 23:17:34.863 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:17:34.863 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 23:17:34.863 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 23:17:34.937 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:35.624 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:17:35.624 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 23:17:35.624 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 23:17:35.722 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:36.428 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 23:17:36.428 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 23:17:36.428 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 23:17:36.519 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 23:17:37.439 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 23:17:37.439 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 23:17:37.439 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 23:17:40.572 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 23:17:40.572 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 23:17:41.493 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 23:17:41.513 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 23:17:41.573 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 23:17:43.236 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 23:17:43.236 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 23:17:44.256 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 23:17:44.324 [main] Test_HW2 - Item Search Tests
+[DEBUG] 2021-05-18 23:17:44.327 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:17:44.724 [main] Test_HW2 - Test Type: Input exists in an item, without clicking on the search button
+[DEBUG] 2021-05-18 23:17:44.724 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:17:44.797 [main] Test_HW2 - Input exists in an item, without clicking on the search button has passed!!! - Stayed at home page and no item was found!!
+[DEBUG] 2021-05-18 23:17:44.797 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:17:45.120 [main] Test_HW2 - Test Type: Input does not exist in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:17:45.120 [main] Test_HW2 - Search Text: yese
+[DEBUG] 2021-05-18 23:17:45.575 [main] Test_HW2 - Input does not exist in an item, with clicking on the search button has passed!!! - No item was found!!
+[DEBUG] 2021-05-18 23:17:45.575 [main] Test_HW2 - Moving to home page
+[DEBUG] 2021-05-18 23:17:45.892 [main] Test_HW2 - Test Type: Input exists in an item, with clicking on the search button
+[DEBUG] 2021-05-18 23:17:45.892 [main] Test_HW2 - Search Text: Mac
+[DEBUG] 2021-05-18 23:17:46.698 [main] Test_HW2 - Input exists in an item, with clicking on the search button has passed!!! - An item matching the search text was found: iMac
+[INFO ] 2021-05-18 23:17:47.305 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 23:17:47.305 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 23:17:48.284 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 23:17:48.284 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 23:17:49.238 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 23:17:50.076 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 23:17:50.076 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 23:17:50.495 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[DEBUG] 2021-05-18 23:17:50.495 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 23:17:52.058 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 23:17:52.059 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 23:17:53.447 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 23:17:53.448 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 23:17:54.447 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[DEBUG] 2021-05-18 23:18:04.897 [main] Test_HW2 - Test Type: Change currency to Euro
+[DEBUG] 2021-05-18 23:18:05.567 [main] Test_HW2 - Test Type: Change currency to Euro - Failed
+[DEBUG] 2021-05-18 23:18:05.567 [main] Test_HW2 - Test Type: Change currency to Pound
+[DEBUG] 2021-05-18 23:18:06.221 [main] Test_HW2 - Test Type: Change currency to Pound - Failed
+[DEBUG] 2021-05-18 23:18:06.221 [main] Test_HW2 - Test Type: Change currency to US
+[DEBUG] 2021-05-18 23:18:06.897 [main] Test_HW2 - Test Type: Change currency to US - Failed
