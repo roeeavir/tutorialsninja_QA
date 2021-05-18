@@ -4334,6 +4334,33 @@
 [DEBUG] 2021-05-18 15:42:19.196 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
 [DEBUG] 2021-05-18 15:42:19.196 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
 [DEBUG] 2021-05-18 15:42:19.816 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[INFO ] 2021-05-18 15:59:58.037 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:00:00.027 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:00:00.322 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:00:00.667 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:00:00.667 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:00:00.667 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:00:01.256 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:01.256 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:00:01.256 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:00:01.833 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:01.833 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:00:01.833 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:00:01.890 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:00:02.458 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:02.458 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:00:02.458 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:00:02.507 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:00:03.074 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:03.074 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:00:03.074 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:00:03.135 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:00:03.701 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:03.702 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:00:03.702 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:00:03.763 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-18 16:00:04.489 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:00:04.489 [main] Test_HW2 - Moving to login page
 [INFO ] 2021-05-18 15:47:36.105 [main] Test_HW2 - opening website
 [INFO ] 2021-05-18 15:47:38.507 [main] Test_HW2 - Wishlist Tests
 [DEBUG] 2021-05-18 15:47:38.507 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected

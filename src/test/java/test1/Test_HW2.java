@@ -192,19 +192,19 @@ public class Test_HW2 {
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
-            logger.debug("Test Type: Adding item without filling required fields - Pass");
+            logger.debug("Test Type: Adding item without filling required fields - Pass!! - Missing fields item was not added to shopping cart");
         else
-            logger.debug("Test Type: Adding item without filling required fields - Failed");
+            logger.debug("Test Type: Adding item without filling required fields - Failed!! - Missing fields item was added to shopping cart");
         logger.debug("Test Type: Adding item that out of stock");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/div/div[3]/button[1]")).click();
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div[1]")).getText().equals("Products marked with *** are not available in the desired quantity or not in stock!\n" +
                 "×")) {
-            logger.debug("Test Type:Adding item that out of stock - Pass");
+            logger.debug("Test Type:Adding item that out of stock - Pass!! - Out of stock item was not added to shopping cart");
             driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")).click();
         } else
-            logger.debug("Test Type: Adding item that out of stock - Failed");
+            logger.debug("Test Type: Adding item that out of stock - Failed!! - ");
 
         logger.debug("Test Type: Adding item to shopping cart");
         driver.get("http://tutorialsninja.com/demo/index.php?route=product/product&path=25_28&product_id=33");
@@ -212,18 +212,18 @@ public class Test_HW2 {
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
-            logger.debug("Test Type: Adding item to shopping cart - Failed");
+            logger.debug("Test Type: Adding item to shopping cart - Failed!! - Wasn't able to add item to shopping cart");
         else
-            logger.debug("Test Type: Adding item to shopping cart - Pass");
+            logger.debug("Test Type: Adding item to shopping cart - Pass!! - Item added to shopping cart");
         logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart");
         driver.get("http://tutorialsninja.com/demo/index.php?route=product/product&path=25_28&product_id=33");
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).getAttribute("value").equals("2")) {
-            logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass");
+            logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass!! - Quantity of item raised by 1 in shopping cart");
             driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")).click();
         } else
-            logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed");
+            logger.debug("Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed!! - Quantity of item was not raised by 1 in shopping cart");
     }
 
     private void itemSearch(Logger logger) throws IOException {
@@ -294,9 +294,9 @@ public class Test_HW2 {
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
         Thread.sleep(500);
         if (!driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(0)"))
-            logger.debug("Test Type: Adding item to wishlist while not connected - Failed");
+            logger.debug("Test Type: Adding item to wishlist while not connected - Failed!! - Item was added to wishlist while not connected");
         else
-            logger.debug("Test Type: Adding item to wishlist while not connected - Pass");
+            logger.debug("Test Type: Adding item to wishlist while not connected - Pass!! - Item was not added to wishlist while not connected");
         logger.debug("Login to the system to perform the rest of wishlist tests");
         loginIntoUser();
         driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input")).click();
@@ -307,20 +307,20 @@ public class Test_HW2 {
         driver.navigate().to(wishListURL);
         if (driver.getCurrentUrl().equals(wishListURL)) {
             if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")).getText().equals("Apple Cinema 30\""))
-                logger.debug("Test Type: Adding item to wishlist while connected - Pass");
+                logger.debug("Test Type: Adding item to wishlist while connected - Pass!! - Item was added to wishlist");
             else
-                logger.debug("Test Type: Adding item to wishlist while connected - Failed");
+                logger.debug("Test Type: Adding item to wishlist while connected - Failed!! - Item was not added to wishlist");
 
         } else
-            logger.debug("Test Type: Adding item to wishlist while connected - Failed");
+            logger.debug("Test Type: Adding item to wishlist while connected - Failed!! - Item was not added to wishlist");
 
         logger.debug("Test Type: Adding item to wishlist That existing in the wishlist");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
         if (driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(1)"))
-            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Pass");
+            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Pass!! - Item was not added to wishlist, as it was already there");
         else
-            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed");
+            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed!! - Item was added to wishlist, despite it already being there");
 
     }
 
@@ -339,9 +339,9 @@ public class Test_HW2 {
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
-            logger.debug("Test Type: Adding invalid quantity of items - Pass");
+            logger.debug("Test Type: Adding invalid quantity of items - Pass!! - Did not add items of invalid quantity to shopping cart");
         else
-            logger.debug("Test Type: Adding invalid quantity of items - Failed");
+            logger.debug("Test Type: Adding invalid quantity of items - Failed!! - Added items of invalid quantity to shopping cart");
         logger.debug("Test Type: Adding valid quantity of items");
         driver.navigate().to(tempURL);
         driver.findElement(By.id("input-quantity")).clear();
@@ -350,11 +350,11 @@ public class Test_HW2 {
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[2]/a")).getText().equals("MacBook")) {
             if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).getAttribute("value").equals("4")) {
-                logger.debug("Test Type: Adding valid quantity of items - Pass");
+                logger.debug("Test Type: Adding valid quantity of items - Pass!! - Added items of valid quantity to shopping cart");
             } else
-                logger.debug("Test Type: Adding valid quantity of items - Failed1");
+                logger.debug("Test Type: Adding valid quantity of items - Failed!! - Failed to add items of valid quantity to shopping cart");
         } else
-            logger.debug("Test Type: Adding valid quantity of items - Failed2");
+            logger.debug("Test Type: Adding valid quantity of items - Failed!! - Failed to add items of valid quantity to shopping cart");
 
         logger.debug("Test Type: Adding valid quantity of items but greater then the current stock");
         driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).clear();
@@ -363,9 +363,9 @@ public class Test_HW2 {
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div[1]")).getText().equals("Products marked with *** are not available in the desired quantity or not in stock!\n" +
                 "×"))
-            logger.debug("Test Type:Adding valid quantity of items but greater then the current stock - Pass");
+            logger.debug("Test Type:Adding valid quantity of items but greater then the current stock - Pass!! - Adds items to shopping cart with warning of unavailable quantity");
         else {
-            logger.debug("Test Type: Adding valid quantity of items but greater then the current stock - Failed");
+            logger.debug("Test Type: Adding valid quantity of items but greater then the current stock - Failed!! - Adds items to shopping cart without warning of unavailable quantity");
         }
         driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")).click();
     }
@@ -380,9 +380,9 @@ public class Test_HW2 {
             driver.findElement(By.xpath("//*[@id=\"form-currency\"]/div/button")).click();
             driver.findElement(By.xpath("//*[@id=\"form-currency\"]/div/ul/li[" + (i + 1) + "]/button")).click();
             if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/p[2]")).getText().contains(PRICES[i]))
-                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Pass");
+                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Pass!! - Price shown in correct currency");
             else
-                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Failed");
+                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Failed!! - Price shown in wrong currency");
         }
     }
 
