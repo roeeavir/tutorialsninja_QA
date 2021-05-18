@@ -23,6 +23,7 @@ public class Test_HW2 {
     private int rowCount;
     private Sheet thsSheet;
     private final String homePageURL = "http://tutorialsninja.com/demo/";
+    private final String shoppingCartURL = "http://tutorialsninja.com/demo/index.php?route=checkout/cart";
     private String currentURL;
     private String loginURL = "http://tutorialsninja.com/demo/index.php?route=account/login";
     private ReadExcl objExcelFile = new ReadExcl();
@@ -50,17 +51,69 @@ public class Test_HW2 {
         driver.manage().window().setSize(new Dimension(1004, 724));
         //sanityCheck(logger);
         //itemSearch(logger);
-        wishList(logger);
+        //wishList(logger);
+        quantity(logger);
+    }
+
+    private void quantity(Logger logger) {
+        if (isLogged == false) {
+            driver.navigate().to(loginURL);
+            driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
+            driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+        }
+        String tempURL;
+        logger.debug("Test Type: Adding invalid quantity of items");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/h4/a")).click();
+        tempURL = driver.getCurrentUrl();
+        driver.findElement(By.id("input-quantity")).clear();
+        driver.findElement(By.id("input-quantity")).sendKeys("s");
+        driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
+            logger.debug("Test Type: Adding invalid quantity of items - Pass");
+        else
+            logger.debug("Test Type: Adding invalid quantity of items - Failed");
+        logger.debug("Test Type: Adding valid quantity of items");
+        driver.navigate().to(tempURL);
+        driver.findElement(By.id("input-quantity")).clear();
+        driver.findElement(By.id("input-quantity")).sendKeys("4");
+        driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[2]/a")).getText().equals("MacBook")) {
+            if (driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).getAttribute("value").equals("4")) {
+                logger.debug("Test Type: Adding valid quantity of items - Pass");
+            } else
+                logger.debug("Test Type: Adding valid quantity of items - Failed1");
+        } else
+            logger.debug("Test Type: Adding valid quantity of items - Failed2");
+
+        logger.debug("Test Type: Adding valid quantity of items but greater then the current stock");
+        driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).clear();
+        driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/input")).sendKeys("1000");
+        driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[1]")).click();
+        driver.navigate().to(shoppingCartURL);
+        if (driver.findElement(By.xpath("/html/body/div[2]/div[1]")).getText().equals("Products marked with *** are not available in the desired quantity or not in stock!\n" +
+                "×"))
+            logger.debug("Test Type:Adding valid quantity of items but greater then the current stock - Pass");
+        else {
+            logger.debug("Test Type: Adding valid quantity of items but greater then the current stock - Failed");
+        }
+        driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/table/tbody/tr/td[4]/div/span/button[2]")).click();
     }
 
 
     private void sanityCheck(Logger logger) throws IOException {
-        //register(logger);
+        register(logger);
         login(logger);
         shoppingCart(logger);
     }
 
     private void wishList(Logger logger) throws InterruptedException {
+        if (isLogged == true) {
+            driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[2]")).click();
+            driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a")).click();
+        }
         logger.info("Wishlist Tests");
         logger.debug("Test Type: Adding item to wishlist while not connected");
         driver.navigate().to(homePageURL);
@@ -74,6 +127,7 @@ public class Test_HW2 {
         driver.navigate().to(loginURL);
         driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
         driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+        isLogged = true;
         driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input")).click();
         logger.debug("Test Type: Adding item to wishlist while connected");
         driver.navigate().to(homePageURL);
@@ -105,7 +159,7 @@ public class Test_HW2 {
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[2]/h4/a")).click();
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
-        String shoppingCartURL = "http://tutorialsninja.com/demo/index.php?route=checkout/cart";
+
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
             logger.debug("Test Type: Adding item without filling required fields - Pass");

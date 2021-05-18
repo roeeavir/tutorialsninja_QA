@@ -4716,3 +4716,36 @@
 [DEBUG] 2021-05-18 16:56:53.511 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
 [DEBUG] 2021-05-18 16:56:53.512 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
 [DEBUG] 2021-05-18 16:56:53.965 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[INFO ] 2021-05-18 17:27:42.041 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:27:45.131 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:27:48.328 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Failed
+[DEBUG] 2021-05-18 17:27:48.328 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 17:27:49.384 [main] Test_HW2 - Test Type: Adding valid quantity of items - Failed
+[DEBUG] 2021-05-18 17:27:49.384 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 17:27:49.515 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock - Failed
+[INFO ] 2021-05-18 17:28:45.136 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 17:29:05.683 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:29:08.897 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:29:12.359 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Failed
+[DEBUG] 2021-05-18 17:29:12.359 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 17:29:13.445 [main] Test_HW2 - Test Type: Adding valid quantity of items - Failed
+[DEBUG] 2021-05-18 17:29:13.445 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 17:29:13.609 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock - Failed
+[INFO ] 2021-05-18 17:31:16.885 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:31:19.752 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:31:22.832 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 17:31:22.832 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[INFO ] 2021-05-18 17:32:19.540 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:32:22.685 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:32:25.764 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 17:32:25.764 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 17:32:27.152 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 17:32:27.152 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 17:32:27.896 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock - Failed
+[INFO ] 2021-05-18 17:33:31.937 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:33:34.897 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:33:37.961 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 17:33:37.961 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 17:33:39.312 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 17:33:39.312 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 17:33:40.346 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
