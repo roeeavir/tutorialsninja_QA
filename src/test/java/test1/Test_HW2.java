@@ -25,8 +25,9 @@ public class Test_HW2 {
     private int rowCount;
     private Sheet thsSheet;
     private final String homePageURL = "http://tutorialsninja.com/demo/";
+    private final String wishListURL = "http://tutorialsninja.com/demo/index.php?route=account/wishlist";
     private String currentURL;
-    private String loginURL;
+    private String loginURL = "http://tutorialsninja.com/demo/index.php?route=account/login";
     private ReadExcl objExcelFile = new ReadExcl();
     private boolean isLogged = false;
 
@@ -51,15 +52,59 @@ public class Test_HW2 {
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
         driver.manage().window().setSize(new Dimension(1004, 724));
-        sanityCheck(logger);
-        itemSearch(logger);
+        //      sanityCheck(logger);
+        //    itemSearch(logger);
+        wishList(logger);
     }
 
 
     private void sanityCheck(Logger logger) throws IOException {
-//        register(logger);
+        register(logger);
         login(logger);
         shoppingCart(logger);
+    }
+
+    private void wishList(Logger logger) {
+        logger.info("Wishlist Tests");
+        logger.debug("Test Type: Adding item to wishlist while not connected");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
+        logger.debug(driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title"));
+        if (!driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(0)"))
+            logger.debug("Test Type: Adding item to wishlist while not connected - Failed");
+        else
+            logger.debug("Test Type: Adding item to wishlist while not connected - Pass");
+        logger.debug("Login to the system to perform the rest of wishlist tests");
+        driver.navigate().to(loginURL);
+        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
+        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+        driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input")).click();
+        logger.debug("Test Type: Adding item to wishlist while connected");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
+        driver.navigate().to(wishListURL);
+        if (driver.getCurrentUrl().equals(wishListURL)) {
+            if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")).getText().equals("Apple Cinema 30\""))
+                logger.debug("Test Type: Adding item to wishlist while connected - Pass");
+            else
+                logger.debug("Test Type: Adding item to wishlist while connected - Failed");
+
+        } else
+            logger.debug("Test Type: Adding item to wishlist while connected - Failed");
+
+        logger.debug("Test Type: Adding item to wishlist That existing in the wishlist");
+        driver.navigate().to(homePageURL);
+        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
+        driver.navigate().to(wishListURL);
+        if (driver.getCurrentUrl().equals(wishListURL)) {
+            if (driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]/span")).getText().equals("Wish List (2)"))
+                logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed");
+            else
+                logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Pass");
+
+        } else
+            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed");
     }
 
     private void shoppingCart(Logger logger) {

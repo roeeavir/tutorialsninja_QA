@@ -44,6 +44,12 @@
             <artifactId>log4j-core</artifactId>
             <version>2.13.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-broker</artifactId>
+            <version>5.16.1</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
