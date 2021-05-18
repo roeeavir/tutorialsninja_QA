@@ -4749,3 +4749,24 @@
 [DEBUG] 2021-05-18 17:33:39.312 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
 [DEBUG] 2021-05-18 17:33:39.312 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
 [DEBUG] 2021-05-18 17:33:40.346 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[INFO ] 2021-05-18 17:42:50.882 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 17:42:53.883 [main] Test_HW2 - Test Type: Adding invalid quantity of items
+[DEBUG] 2021-05-18 17:42:56.905 [main] Test_HW2 - Test Type: Adding invalid quantity of items - Pass
+[DEBUG] 2021-05-18 17:42:56.906 [main] Test_HW2 - Test Type: Adding valid quantity of items
+[DEBUG] 2021-05-18 17:42:58.273 [main] Test_HW2 - Test Type: Adding valid quantity of items - Pass
+[DEBUG] 2021-05-18 17:42:58.273 [main] Test_HW2 - Test Type: Adding valid quantity of items but greater then the current stock
+[DEBUG] 2021-05-18 17:42:59.262 [main] Test_HW2 - Test Type:Adding valid quantity of items but greater then the current stock - Pass
+[INFO ] 2021-05-18 18:09:28.702 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 18:09:32.137 [main] Test_HW2 - Test Type: Change currency to Euro
+[DEBUG] 2021-05-18 18:09:32.790 [main] Test_HW2 - Test Type: Change currency to Euro - Pass
+[DEBUG] 2021-05-18 18:09:32.790 [main] Test_HW2 - Test Type: Change currency to Pound
+[DEBUG] 2021-05-18 18:09:33.441 [main] Test_HW2 - Test Type: Change currency to Pound - Pass
+[DEBUG] 2021-05-18 18:09:33.441 [main] Test_HW2 - Test Type: Change currency to US
+[DEBUG] 2021-05-18 18:09:34.109 [main] Test_HW2 - Test Type: Change currency to US - Pass
+[INFO ] 2021-05-18 18:09:58.560 [main] Test_HW2 - opening website
+[DEBUG] 2021-05-18 18:10:01.837 [main] Test_HW2 - Test Type: Change currency to Euro
+[DEBUG] 2021-05-18 18:10:02.710 [main] Test_HW2 - Test Type: Change currency to Euro - Failed
+[DEBUG] 2021-05-18 18:10:02.710 [main] Test_HW2 - Test Type: Change currency to Pound
+[DEBUG] 2021-05-18 18:10:03.456 [main] Test_HW2 - Test Type: Change currency to Pound - Failed
+[DEBUG] 2021-05-18 18:10:03.456 [main] Test_HW2 - Test Type: Change currency to US
+[DEBUG] 2021-05-18 18:10:04.197 [main] Test_HW2 - Test Type: Change currency to US - Failed

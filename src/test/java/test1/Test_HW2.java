@@ -18,6 +18,8 @@ public class Test_HW2 {
 
     private static final String[] TEXT_FIELD_NAMES_REGISTER_PAGE = {"input-firstname", "input-lastname", "input-email", "input-telephone", "input-password", "input-confirm"};
     private static final String[] TEXT_FIELD_NAMES_LOGIN_PAGE = {"input-email", "input-password"};
+    private static final String[] CURRENCY = {"Euro", "Pound", "US"};
+    private static final String[] PRICES = {"472.33", "368.73", "602.00"};
     private WebDriver driver;
     //private final ReadExcl objExcelFile = new ReadExcl();
     private int rowCount;
@@ -52,14 +54,36 @@ public class Test_HW2 {
         //sanityCheck(logger);
         //itemSearch(logger);
         //wishList(logger);
-        quantity(logger);
+        //quantity(logger);
+        currency(logger);
+    }
+
+    private void loginIntoUser() {
+        driver.navigate().to(loginURL);
+        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
+        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+    }
+
+    private void currency(Logger logger) {
+        if (isLogged == false) {
+            loginIntoUser();
+        }
+        driver.navigate().to(homePageURL);
+        for (int i = 0; i < CURRENCY.length; i++) {
+            logger.debug("Test Type: Change currency to " + CURRENCY[i]);
+            driver.findElement(By.xpath("//*[@id=\"form-currency\"]/div/button")).click();
+            driver.findElement(By.xpath("//*[@id=\"form-currency\"]/div/ul/li["+(i+1)+"]/button")).click();
+            if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/p[2]")).getText().contains(PRICES[i]))
+                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Pass");
+            else
+                logger.debug("Test Type: Change currency to " + CURRENCY[i] + " - Failed");
+
+        }
     }
 
     private void quantity(Logger logger) {
         if (isLogged == false) {
-            driver.navigate().to(loginURL);
-            driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
-            driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+            loginIntoUser();
         }
         String tempURL;
         logger.debug("Test Type: Adding invalid quantity of items");
@@ -124,9 +148,7 @@ public class Test_HW2 {
         else
             logger.debug("Test Type: Adding item to wishlist while not connected - Pass");
         logger.debug("Login to the system to perform the rest of wishlist tests");
-        driver.navigate().to(loginURL);
-        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[0])).sendKeys("12@1.com");
-        driver.findElement(By.id(TEXT_FIELD_NAMES_LOGIN_PAGE[1])).sendKeys("1234");
+        loginIntoUser();
         isLogged = true;
         driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input")).click();
         logger.debug("Test Type: Adding item to wishlist while connected");
