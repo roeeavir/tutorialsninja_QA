@@ -18,14 +18,11 @@ public class Test_HW2 {
 
     private static final String[] TEXT_FIELD_NAMES_REGISTER_PAGE = {"input-firstname", "input-lastname", "input-email", "input-telephone", "input-password", "input-confirm"};
     private static final String[] TEXT_FIELD_NAMES_LOGIN_PAGE = {"input-email", "input-password"};
-    private final String shoppingCartURL = "http://tutorialsninja.com/demo/index.php?route=checkout/cart";
     private WebDriver driver;
-    private JavascriptExecutor js;
     //private final ReadExcl objExcelFile = new ReadExcl();
     private int rowCount;
     private Sheet thsSheet;
     private final String homePageURL = "http://tutorialsninja.com/demo/";
-    private final String wishListURL = "http://tutorialsninja.com/demo/index.php?route=account/wishlist";
     private String currentURL;
     private String loginURL = "http://tutorialsninja.com/demo/index.php?route=account/login";
     private ReadExcl objExcelFile = new ReadExcl();
@@ -36,7 +33,6 @@ public class Test_HW2 {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
-        js = (JavascriptExecutor) driver;
         rowCount = ReadExcl.getRowcount();
         thsSheet = ReadExcl.getsheet();
     }
@@ -47,13 +43,13 @@ public class Test_HW2 {
     }
 
     @org.junit.Test
-    public void simple() throws IOException, InterruptedException {
+    public void simple() throws InterruptedException, IOException {
         Logger logger = LogManager.getLogger(Test_HW2.class);
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
         driver.manage().window().setSize(new Dimension(1004, 724));
-        //      sanityCheck(logger);
-        //    itemSearch(logger);
+        sanityCheck(logger);
+        itemSearch(logger);
         wishList(logger);
     }
 
@@ -69,8 +65,6 @@ public class Test_HW2 {
         logger.debug("Test Type: Adding item to wishlist while not connected");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
-        driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
-        logger.debug(driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title"));
         Thread.sleep(500);
         if (!driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(0)"))
             logger.debug("Test Type: Adding item to wishlist while not connected - Failed");
@@ -84,6 +78,7 @@ public class Test_HW2 {
         logger.debug("Test Type: Adding item to wishlist while connected");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
+        String wishListURL = "http://tutorialsninja.com/demo/index.php?route=account/wishlist";
         driver.navigate().to(wishListURL);
         if (driver.getCurrentUrl().equals(wishListURL)) {
             if (driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/table/tbody/tr/td[2]/a")).getText().equals("Apple Cinema 30\""))
@@ -97,15 +92,11 @@ public class Test_HW2 {
         logger.debug("Test Type: Adding item to wishlist That existing in the wishlist");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
-        driver.navigate().to(wishListURL);
-        if (driver.getCurrentUrl().equals(wishListURL)) {
-            if (driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]/span")).getText().equals("Wish List (2)"))
-                logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed");
-            else
-                logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Pass");
-
-        } else
+        if (driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(1)"))
+            logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Pass");
+        else
             logger.debug("Test Type: Adding item to wishlist That existing in the wishlist - Failed");
+
     }
 
     private void shoppingCart(Logger logger) {
@@ -114,6 +105,7 @@ public class Test_HW2 {
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[2]/h4/a")).click();
         driver.findElement(By.xpath("//*[@id=\"button-cart\"]")).click();
+        String shoppingCartURL = "http://tutorialsninja.com/demo/index.php?route=checkout/cart";
         driver.navigate().to(shoppingCartURL);
         if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
             logger.debug("Test Type: Adding item without filling required fields - Pass");
