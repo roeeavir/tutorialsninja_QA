@@ -48,14 +48,14 @@ public class Test_HW2 {
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
         driver.manage().window().setSize(new Dimension(1004, 724));
-        sanityCheck(logger);
-        itemSearch(logger);
+        //sanityCheck(logger);
+        //itemSearch(logger);
         wishList(logger);
     }
 
 
     private void sanityCheck(Logger logger) throws IOException {
-        register(logger);
+        //register(logger);
         login(logger);
         shoppingCart(logger);
     }
@@ -116,7 +116,9 @@ public class Test_HW2 {
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/div/div[3]/button[1]")).click();
         driver.navigate().to(shoppingCartURL);
-        if (driver.findElement(By.xpath("/html/body/div[2]/div/div/p")).getText().equals("Your shopping cart is empty!"))
+        logger.debug(driver.findElement(By.xpath("/html/body/div[2]/div[1]")).getText());
+        if (driver.findElement(By.xpath("/html/body/div[2]/div[1]")).getText().equals("Products marked with *** are not available in the desired quantity or not in stock!\n" +
+                "×"))
             logger.debug("Test Type:Adding item that out of stock - Pass");
         else {
             logger.debug("Test Type: Adding item that out of stock - Failed");

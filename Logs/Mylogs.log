@@ -4343,3 +4343,376 @@
 [DEBUG] 2021-05-18 15:47:41.372 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
 [DEBUG] 2021-05-18 15:47:41.372 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
 [DEBUG] 2021-05-18 15:47:41.790 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[INFO ] 2021-05-18 15:57:09.841 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 15:57:12.466 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 15:57:12.805 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 15:57:13.222 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 15:57:13.223 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 15:57:13.223 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 15:57:13.967 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:13.967 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 15:57:13.967 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 15:57:14.685 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:14.685 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 15:57:14.685 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 15:57:14.768 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 15:57:15.463 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:15.463 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 15:57:15.463 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 15:57:15.534 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 15:57:16.203 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:16.203 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 15:57:16.203 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 15:57:16.294 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 15:57:16.989 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:16.990 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 15:57:16.990 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 15:57:17.086 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-18 15:57:17.963 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-18 15:57:17.963 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-18 16:02:40.091 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:02:42.824 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:02:43.081 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:02:43.498 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:02:43.499 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:02:43.499 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:02:44.243 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:44.244 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:02:44.244 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:02:44.978 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:44.978 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:02:44.978 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:02:45.072 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:02:45.771 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:45.771 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:02:45.771 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:02:45.841 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:02:46.541 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:46.541 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:02:46.541 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:02:46.636 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:02:47.335 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:47.335 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:02:47.335 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:02:47.432 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-18 16:02:48.331 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:02:48.331 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-18 16:03:42.390 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:03:45.067 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:03:45.307 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:03:45.722 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:03:45.722 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:03:45.722 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:03:46.422 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:46.422 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:03:46.422 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:03:47.140 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:47.140 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:03:47.140 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:03:47.229 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:03:47.945 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:47.945 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:03:47.945 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:03:48.023 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:03:48.758 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:48.758 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:03:48.759 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:03:48.852 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:03:49.572 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:49.572 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:03:49.572 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:03:49.662 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-18 16:03:50.565 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:03:50.566 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-18 16:04:26.695 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:04:29.016 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:04:29.252 [main] Test_HW2 - 12
+[DEBUG] 2021-05-18 16:04:29.252 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:04:29.657 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:04:29.658 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:04:29.658 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:04:30.406 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:30.406 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:04:30.406 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:04:31.154 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:31.154 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:04:31.154 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:04:31.245 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:04:32.037 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:32.038 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:04:32.038 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:04:32.123 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:04:32.814 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:32.814 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:04:32.814 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:04:32.909 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:04:33.623 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:33.623 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:04:33.623 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:04:33.713 [main] Test_HW2 - Password: 1234
+[ERROR] 2021-05-18 16:04:34.592 [main] Test_HW2 - User login Success has failed!!!  - User managed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:04:34.593 [main] Test_HW2 - Moving to login page
+[INFO ] 2021-05-18 16:14:45.936 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:14:48.547 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:14:48.866 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:14:49.280 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:14:49.280 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:14:49.280 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:14:50.000 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:14:50.000 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:14:50.001 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:14:50.720 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:14:50.720 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:14:50.720 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:14:50.804 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:14:51.499 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:14:51.499 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:14:51.499 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:14:51.567 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:14:52.267 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:14:52.267 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:14:52.267 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:14:52.356 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:14:53.063 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:14:53.063 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:14:53.063 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:14:53.153 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:14:54.036 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:14:54.036 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:14:54.036 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:14:57.229 [main] Test_HW2 - Test Type: Adding item without filling required fields - Pass
+[DEBUG] 2021-05-18 16:14:57.229 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:14:58.129 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:14:58.201 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:14:59.870 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:14:59.870 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:15:00.863 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:17:33.711 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:17:36.387 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:17:36.623 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:17:37.048 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:17:37.048 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:17:37.049 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:17:37.780 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:17:37.780 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:17:37.780 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:17:38.514 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:17:38.515 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:17:38.515 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:17:38.608 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:17:39.320 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:17:39.320 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:17:39.320 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:17:39.397 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:17:40.106 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:17:40.107 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:17:40.107 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:17:40.214 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:17:40.909 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:17:40.909 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:17:40.910 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:17:40.997 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:17:42.048 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:17:42.048 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:17:42.048 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:17:45.308 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:17:45.308 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:17:46.073 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:17:46.135 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:17:47.756 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:17:47.757 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:17:48.855 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:18:28.065 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:18:30.594 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:18:30.824 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:18:31.279 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:18:31.279 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:18:31.280 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:18:32.005 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:18:32.005 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:18:32.005 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:18:32.731 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:18:32.732 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:18:32.732 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:18:32.817 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:18:33.514 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:18:33.514 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:18:33.514 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:18:33.595 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:18:34.289 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:18:34.289 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:18:34.290 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:18:34.375 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:18:35.115 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:18:35.115 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:18:35.115 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:18:35.196 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:18:36.226 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:18:36.226 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:18:36.226 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:18:39.805 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:18:39.805 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:18:40.715 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 16:18:40.737 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:18:40.805 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:18:42.361 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:18:42.361 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:18:43.379 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:19:10.511 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:19:12.819 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:19:13.052 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:19:13.467 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:19:13.469 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:19:13.469 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:19:14.184 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:14.185 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:19:14.185 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:19:14.909 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:14.909 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:19:14.909 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:19:14.996 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:19:15.699 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:15.699 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:19:15.699 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:19:15.773 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:19:16.542 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:16.542 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:19:16.542 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:19:16.635 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:19:17.304 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:17.304 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:19:17.304 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:19:17.399 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:19:18.447 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:19:18.447 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:19:18.448 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:19:21.757 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:19:21.757 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:19:22.576 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 16:19:22.593 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:19:22.650 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:19:24.114 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:19:24.114 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:19:25.131 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:19:55.261 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:19:57.720 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:19:57.947 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:19:58.344 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:19:58.344 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:19:58.344 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:19:59.063 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:59.064 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:19:59.064 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:19:59.801 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:19:59.801 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:19:59.801 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:19:59.886 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:20:00.597 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:00.597 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:20:00.597 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:20:00.666 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:01.381 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:01.381 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:20:01.381 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:20:01.484 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:02.182 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:02.182 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:20:02.182 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:20:02.278 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:03.338 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:20:03.338 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:20:03.339 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:20:06.344 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:20:06.344 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:20:07.151 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 16:20:07.173 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:20:07.227 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:20:08.786 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:20:08.786 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:20:09.859 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:20:21.769 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:20:24.397 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:20:24.621 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:20:25.093 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:20:25.094 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:20:25.094 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:25.830 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:25.830 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:20:25.830 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:20:26.560 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:26.560 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:20:26.560 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:20:26.649 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:20:27.310 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:27.311 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:20:27.311 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:20:27.379 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:28.078 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:28.079 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:20:28.079 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:20:28.169 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:28.833 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:20:28.834 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:20:28.834 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:20:28.933 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:20:29.977 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:20:29.978 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:20:29.978 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:20:33.224 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:20:33.224 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:20:34.007 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 16:20:34.028 [main] Test_HW2 - Test Type: Adding item that out of stock - Failed
+[DEBUG] 2021-05-18 16:20:34.103 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:20:35.642 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:20:35.642 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:20:36.723 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Pass
+[INFO ] 2021-05-18 16:54:59.824 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:55:02.399 [main] Test_HW2 - Login Tests
+[DEBUG] 2021-05-18 16:55:02.882 [main] Test_HW2 - Moving to login page
+[DEBUG] 2021-05-18 16:55:03.351 [main] Test_HW2 - Login URL: http://tutorialsninja.com/demo/index.php?route=account/login
+[DEBUG] 2021-05-18 16:55:03.352 [main] Test_HW2 - Test Type: No Email
+[DEBUG] 2021-05-18 16:55:03.352 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:55:04.075 [main] Test_HW2 - No Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:55:04.076 [main] Test_HW2 - Test Type: No Password
+[DEBUG] 2021-05-18 16:55:04.076 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:55:04.782 [main] Test_HW2 - No Password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:55:04.782 [main] Test_HW2 - Test Type: No matching password
+[DEBUG] 2021-05-18 16:55:04.782 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:55:04.867 [main] Test_HW2 - Password: 156441
+[DEBUG] 2021-05-18 16:55:05.558 [main] Test_HW2 - No matching password has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:55:05.558 [main] Test_HW2 - Test Type: Invalid Email
+[DEBUG] 2021-05-18 16:55:05.559 [main] Test_HW2 - Email: Moshe
+[DEBUG] 2021-05-18 16:55:05.638 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:55:06.352 [main] Test_HW2 - Invalid Email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:55:06.352 [main] Test_HW2 - Test Type: No existing email
+[DEBUG] 2021-05-18 16:55:06.352 [main] Test_HW2 - Email: opjgtoihre@makorde.com
+[DEBUG] 2021-05-18 16:55:06.457 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:55:07.157 [main] Test_HW2 - No existing email has passed!!! - User failed to login with invalid fields!!
+[DEBUG] 2021-05-18 16:55:07.158 [main] Test_HW2 - Test Type: User login Success
+[DEBUG] 2021-05-18 16:55:07.158 [main] Test_HW2 - Email: cvbsdv@makorde.com
+[DEBUG] 2021-05-18 16:55:07.246 [main] Test_HW2 - Password: 1234
+[DEBUG] 2021-05-18 16:55:08.300 [main] Test_HW2 - User login Success has passed!!! - User login with valid fields!!
+[INFO ] 2021-05-18 16:55:08.300 [main] Test_HW2 - Shopping Cart Tests
+[DEBUG] 2021-05-18 16:55:08.300 [main] Test_HW2 - Test Type: Adding item without filling required fields
+[DEBUG] 2021-05-18 16:55:11.525 [main] Test_HW2 - Test Type: Adding item without filling required fields - Failed
+[DEBUG] 2021-05-18 16:55:11.525 [main] Test_HW2 - Test Type: Adding item that out of stock
+[DEBUG] 2021-05-18 16:55:12.357 [main] Test_HW2 - Products marked with *** are not available in the desired quantity or not in stock!
+×
+[DEBUG] 2021-05-18 16:55:12.389 [main] Test_HW2 - Test Type:Adding item that out of stock - Pass
+[DEBUG] 2021-05-18 16:55:12.390 [main] Test_HW2 - Test Type: Adding item to shopping cart
+[DEBUG] 2021-05-18 16:55:14.079 [main] Test_HW2 - Test Type: Adding item to shopping cart - Pass
+[DEBUG] 2021-05-18 16:55:14.079 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart
+[DEBUG] 2021-05-18 16:55:15.120 [main] Test_HW2 - Test Type: Adding item to shopping cart that already exists in the shopping cart - Failed
+[INFO ] 2021-05-18 16:56:47.900 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 16:56:50.505 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 16:56:50.505 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 16:56:51.478 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 16:56:51.478 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 16:56:52.624 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 16:56:53.511 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 16:56:53.512 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 16:56:53.965 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
