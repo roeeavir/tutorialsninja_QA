@@ -4302,3 +4302,35 @@
 [DEBUG] 2021-05-18 15:35:37.626 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
 [DEBUG] 2021-05-18 15:35:37.626 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
 [DEBUG] 2021-05-18 15:35:38.346 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[INFO ] 2021-05-18 15:38:34.624 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 15:38:36.507 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 15:38:36.507 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 15:39:50.842 [main] Test_HW2 - Wish List (1)
+[DEBUG] 2021-05-18 15:39:50.863 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 15:39:50.863 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 15:39:57.969 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 15:39:59.833 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 15:39:59.833 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 15:40:00.245 [main] Test_HW2 - Wish List (0)
+[DEBUG] 2021-05-18 15:40:00.265 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Pass
+[DEBUG] 2021-05-18 15:40:00.265 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 15:40:01.113 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 15:40:01.847 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 15:40:01.847 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 15:40:02.477 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass
+[INFO ] 2021-05-18 15:40:09.171 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 15:40:12.169 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 15:40:12.169 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 15:40:15.884 [main] Test_HW2 - Wish List (1)
+[DEBUG] 2021-05-18 15:40:49.589 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 15:40:49.589 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[INFO ] 2021-05-18 15:42:14.827 [main] Test_HW2 - opening website
+[INFO ] 2021-05-18 15:42:16.684 [main] Test_HW2 - Wishlist Tests
+[DEBUG] 2021-05-18 15:42:16.685 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected
+[DEBUG] 2021-05-18 15:42:17.089 [main] Test_HW2 - Wish List (0)
+[DEBUG] 2021-05-18 15:42:17.608 [main] Test_HW2 - Test Type: Adding item to wishlist while not connected - Failed
+[DEBUG] 2021-05-18 15:42:17.608 [main] Test_HW2 - Login to the system to perform the rest of wishlist tests
+[DEBUG] 2021-05-18 15:42:18.464 [main] Test_HW2 - Test Type: Adding item to wishlist while connected
+[DEBUG] 2021-05-18 15:42:19.196 [main] Test_HW2 - Test Type: Adding item to wishlist while connected - Pass
+[DEBUG] 2021-05-18 15:42:19.196 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist
+[DEBUG] 2021-05-18 15:42:19.816 [main] Test_HW2 - Test Type: Adding item to wishlist That existing in the wishlist - Pass

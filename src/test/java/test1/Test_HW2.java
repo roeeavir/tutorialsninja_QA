@@ -47,7 +47,7 @@ public class Test_HW2 {
     }
 
     @org.junit.Test
-    public void simple() throws IOException {
+    public void simple() throws IOException, InterruptedException {
         Logger logger = LogManager.getLogger(Test_HW2.class);
         logger.info("opening website");
         driver.get("http://tutorialsninja.com/demo/");
@@ -64,13 +64,14 @@ public class Test_HW2 {
         shoppingCart(logger);
     }
 
-    private void wishList(Logger logger) {
+    private void wishList(Logger logger) throws InterruptedException {
         logger.info("Wishlist Tests");
         logger.debug("Test Type: Adding item to wishlist while not connected");
         driver.navigate().to(homePageURL);
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
         driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div/div[3]/button[2]")).click();
         logger.debug(driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title"));
+        Thread.sleep(500);
         if (!driver.findElement(By.xpath("//*[@id=\"wishlist-total\"]")).getAttribute("title").contains("(0)"))
             logger.debug("Test Type: Adding item to wishlist while not connected - Failed");
         else
@@ -271,8 +272,7 @@ public class Test_HW2 {
         logger.debug("Moving to home page");
         driver.findElement(By.xpath("//*[@id=\"logo\"]/h1/a")).click();
         currentURL = driver.getCurrentUrl();
-        String homeURL = driver.getCurrentUrl();
-        logger.debug("Home URL: " + homeURL);
+        logger.debug("Home URL: " + homePageURL);
         Row headerRow = thsSheet.getRow(0);
         for (int i = 1; i <= rowCount; i++) {
 
@@ -301,7 +301,7 @@ public class Test_HW2 {
 
             switch (i) {
                 case 1:
-                    if (currentURL.equals(homeURL))
+                    if (currentURL.equals(homePageURL))
                         logger.debug(row.getCell(0).getStringCellValue() + " has passed!!! - Stayed at home page and no item was found!!");
                     else
                         logger.error(row.getCell(0).getStringCellValue() + " has failed!!! - Item was found when it should not have!!");
@@ -324,7 +324,7 @@ public class Test_HW2 {
 
             if (i != rowCount) {
                 logger.debug("Moving to home page");
-                driver.navigate().to(homeURL);
+                driver.navigate().to(homePageURL);
             }
         }
     }
