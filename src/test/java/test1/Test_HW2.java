@@ -41,7 +41,7 @@ public class Test_HW2 {
 
     @After
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
     }
 
     @org.junit.Test
@@ -371,9 +371,10 @@ public class Test_HW2 {
     }
 
     private void currency(Logger logger){
+        driver.findElement(By.id("logo")).click();
         logger.info("Currency Tests");
-        if (!isLogged)
-            loginIntoUser();
+        if (isLogged)
+            logout();
         driver.navigate().to(homePageURL);
         for (int i = 0; i < CURRENCY.length; i++) {
             logger.debug("Test Type: Change currency to " + CURRENCY[i]);
